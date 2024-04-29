@@ -1,3 +1,2 @@
-console.log("Working");
+console.log("For sure working");
 
-document.getElementById("container").innerHTML = 5 + 6;

@@ -2,119 +2,145 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Run Taxi Checklist</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Run Taxi Checklist</title>
 
-<!-- Links -->
-    <link rel="stylesheet" href="../css/taxi.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+  <!-- Links -->
+  <link rel="stylesheet" href="../css/taxi.css">
+  <link rel="stylesheet" href="../css/responsive.css">
 
 
 
-<!-- Scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 </head>
 
+<!-- WRAPPER -->
+
+<div class="wrapper">
+
+
+  
 <body>
 
   <!-- Main Container -->
- <div id="container">
+  <div id="container">
 
-   <!--  All contents within container -->
-   <div id="contentsContainer">
-     
-    <!-- Header  -->
-     <div id="headerContainer">
-       <h1 class="header">TABLE OF CONTENTS</h1>
+    <!--  All contents within container -->
+    <div id=  "contentsContainer">
+
+
+
+      <!-- Header  -->
+      <div id="headerContainer">
+        <h1 class="header">TABLE OF CONTENTS</h1>
       </div>
-      
-      
-      
+
+
+
 
       <!----Towing, Run up Taxi Container----->
+<div class="column">
 
-   <div id="towing">
+  <div class="tow-column">
 
-   <h3 class="towingEngRun"> TOWING / ENGINE RUNE-UP / TAXI CHECKLIST</h3>
-     
-      
-    <div class="listItems" id="controlSafety">CONTROL SAFETY...................................PG.1</div>
-    <div class="listItems" id="externalPower">EXTERNAL POWER....................................PG.2</div>
-    <div class="listItems" id="apuStart">APU START ON EXTERNAL POWER..................................PG.2</div>
-    <div class="listItems" id="apuOnBat">APU START ON BATTERIES.......................PG.2</div>
-    <div class="listItems" id="cockpitPrep">COCKPIT PREPARATION.......................PG.3</div>
-    <div class="listItems" id="beforeAftPush">BEFORE PUSH BACK / AFTER PUSH BACK.......................PG.4</div>
-    <div class="listItems" id="beforeEngStart">BEFORE ENGINE START / STARTER DUTY LIMITS.......................PG.5/14</div>
-    <div class="listItems" id="autoStart">AUTOMATIC START.......................PG.6/15</div>
-    <div class="listItems" id="manStart">MANUAL START.......................PG.7/16</div>
-    <div class="listItems" id="crossbleedStart">CROSSBLEED START.......................PG.8/17</div>
-    <div class="listItems" id="pneumaticStart">PNEUMATIC ASSIST START.......................PG.9/18</div>
-    <div class="listItems" id="afterEngStart"> AFTER ENGINE START.......................PG.10/19</div>
-    <div class="listItems" id="engShutdown">ENGINE SHUTDOWN.......................PG.11/20</div>
-    <div class="listItems" id="dryMoter">DRY-MOTORING.......................PG.12/21</div>
-    <div class="listItems" id="wetMotor">WET-MOTORING.......................PG.13/22</div>
-    <div class="listItems" id="taxi">TAXI.......................PG.23</div>
-    <div class="listItems" id="towingWithoutEng">TOWING WITHOUT ENGINE RUN.......................PG.24</div>
-    <div class="listItems" id="TowingWithBat">TOWING WITH BATTERY POWER ONLY.......................PG.25</div>
-    <div class="listItems" id="leavingAircraft">LEAVING AIRCRAFT.......................PG.26</div>
+
+      <div id="towing">
+ 
+        <h3 class="towingEngRun"> TOWING / ENGINE RUNE-UP / TAXI CHECKLIST</h3>
+
+
+        <div class="listItems" id="controlSafety">CONTROL SAFETY...................................PG.1</div>
+        <div class="listItems" id="externalPower">EXTERNAL POWER....................................PG.2</div>
+        <div class="listItems" id="apuStart">APU START ON EXTERNAL POWER..................................PG.2</div>
+        <div class="listItems" id="apuOnBat">APU START ON BATTERIES.......................PG.2</div>
+        <div class="listItems" id="cockpitPrep">COCKPIT PREPARATION.......................PG.3</div>
+        <div class="listItems" id="beforeAftPush">BEFORE PUSH BACK / AFTER PUSH BACK.......................PG.4</div>
+        <div class="listItems" id="beforeEngStart">BEFORE ENGINE START / STARTER DUTY
+          LIMITS.......................PG.5/14</div>
+        <div class="listItems" id="autoStart">AUTOMATIC START.......................PG.6/15</div>
+        <div class="listItems" id="manStart">MANUAL START.......................PG.7/16</div>
+        <div class="listItems" id="crossbleedStart">CROSSBLEED START.......................PG.8/17</div>
+        <div class="listItems" id="pneumaticStart">PNEUMATIC ASSIST START.......................PG.9/18</div>
+        <div class="listItems" id="afterEngStart"> AFTER ENGINE START.......................PG.10/19</div>
+        <div class="listItems" id="engShutdown">ENGINE SHUTDOWN.......................PG.11/20</div>
+        <div class="listItems" id="dryMoter">DRY-MOTORING.......................PG.12/21</div>
+        <div class="listItems" id="wetMotor">WET-MOTORING.......................PG.13/22</div>
+        <div class="listItems" id="taxi">TAXI.......................PG.23</div>
+        <div class="listItems" id="towingWithoutEng">TOWING WITHOUT ENGINE RUN.......................PG.24</div>
+        <div class="listItems" id="TowingWithBat">TOWING WITH BATTERY POWER ONLY.......................PG.25</div>
+        <div class="listItems" id="leavingAircraft">LEAVING AIRCRAFT.......................PG.26</div> 
+      </div>  
+
+    </div>  
+
+  </div>  
+
+      <!-- Towing container end -->
+
+      <!----EMERGENCY CHECKLIST CONTAINER----->
+      <div class="column">
+
+        <div class="emerg-column">
+
+      <div id="emergCheckList">
+
+        <h3 class="emergencyCheck"> EMERGENCY CHECKLIST</h3>
+
+        <div class="listItems" id="engFireGround">ENGINE FIRE ON GROUND...................................PG.1</div>
+        <div class="listItems" id="engTailFire">ENGINE TAILPIPE FIRE...................................PG.1</div>
+        <div class="listItems" id="apuFire">APU FIRE...................................PG.1</div>
+        <div class="listItems" id="lossBraking">LOSS OF BRAKING...................................PG.1</div>
+        <div class="listItems" id="smokeAvionics">SMOKE / AVIONICS...................................PG.1</div>
+        <div class="listItems" id="cargoSmoke">CARGO SMOKE...................................PG.1</div>
+      </div>
+    </div>
+
   </div>
 
-  <!-- Towing container end -->
 
-    <!----EMERGENCY CHECKLIST CONTAINER----->
+      
+      <!-- EMERGENCY CONTAINER END -->
 
-    <div id="emergCheckList">
+      <div class="column">
 
-    <h3 class="emergencyCheck"> EMERGENCY CHECKLIST</h3>
+        <div class="supple-column">
 
-    <div class="listItems" id="engFireGround">ENGINE FIRE ON GROUND</div>
-    <div class="listItems" id="engTailFire">ENGINE TAILPIPE FIRE</div>
-    <div class="listItems" id="apuFire">APU FIRE</div>
-    <div class="listItems" id="lossBraking">LOSS OF BRAKING</div>
-    <div class="listItems" id="smokeAvionics">SMOKE / AVIONICS</div>
-    <div class="listItems" id="cargoSmoke">CARGO SMOKE</div>
-</div>
+      <div id="supplementNfo">
 
-<!-- EMERGENCY CONTAINER END -->
+        <h3 class="suppleNfo"> SUPPLEMENTAL INFORMATION</h3>
 
-<div id="supplementNfo">
+        <div class="listItems" id="marshallingSignals">MARSHALLING HAND SIGNALS...................................PG.1</div>
+        <div class="listItems" id="airportLights">AIRPORT LIGHTS, SIGNS, & MARKINGS...................................PG.1</div>
+        <div class="listItems" id="futureUse">FUTURE USE...................................PG.1</div>
+        <div class="listItems" id="notes">NOTES...................................PG.1</div>
 
-    <h3 class="suppleNfo"> SUPPLEMENTAL INFORMATION</h3>
+      </div>
+        </div>
+      </div>
 
-    <div class="listItems" id="marshallingSignals">MARSHALLING HAND SIGNALS</div>
-    <div class="listItems" id="airportLights">AIRPORT LIGHTS, SIGNS, & MARKINGS</div>
-    <div class="listItems" id="futureUse">FUTURE USE</div>
-    <div class="listItems" id="notes">NOTES</div>
+      <!-- SUPPLEMENT NFO -->
 
-</div>
+    </div>
+    <!---Content Container End> ---->
 
-<!-- SUPPLEMENT NFO -->
 
-</div>
-  <!---Content Container End> ---->
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-  
- 
 
- 
-    
-    <script src="js/script.js"></script>
+  </div>
 
+
+
+  <footer>
+    <p><strong>For Reference Only:</strong> Created By Marc Cook (A&P) </p>
+  </footer>
+  <!-- <script src="js/script.js"></script> -->
+  <script src="../js/script.js"></script>
 
 </body>
 
+</div>  <!----WRAPPER------>
 
 </html>

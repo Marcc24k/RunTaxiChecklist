@@ -1,57 +1,82 @@
-body {
+   /* Reset default styles */
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+  min-height: 100%;
+ 
+}
+
+ 
+ 
+body{
   background-color: grey;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 19px;
+  font-size: 1em;
+}
+
+
+
+/* Global Text Highlights */
+strong{
+  color: red; 
+  font-weight: bold;
+
+
 }
 
 #container {
-  position: absolute;
+  position: relative;
   width: 70%;
-  height: 1438px;
+  height: 1598px;
   left: 20%;
-  top: 5%;
+  /* top: 5%; */
   border: 5px solid darkGrey;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 3px black;
   background-color: whitesmoke;
   text-align: left;
 
-  /* Flex Boxes Below*/
-/* flex: auto; */
-
 }
+
+ 
+
 
 #contentsContainer {
-    position: absolute;
-    width: 80%;
-    height: 100%;
-    left: 100px;
-    /* border: 2px solid green; */
-
-    /* Flex Box Below */
-
-    /* flex-flow: column; */
-    
-}
-
-#contentList {
-  position: absolute;
-  width: 98%;
-  height: 96px;
-  top: 100px;
-  /*   border: 2px solid red;  */
-  padding: 5px 5px 5px 5px;
-}
-
-.listItems{
+  /* border: 2px solid green; */
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  width: 100%;
   padding: 10px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: bold;
-}
+  background-color: rgb(219, 216, 216);
 
-#headerContainer {
-  position: absolute;
-  border-bottom-color: 20px solid red;
+  
+  }
+
+ .column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 4%;
+
+ }
+
+ 
+ 
+.listItems{
+  padding: 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold; 
+   
+} 
+
+ #headerContainer {
   width: 100%;
   text-align: center;
  
@@ -59,44 +84,25 @@ body {
 
 .header {
   position: relative;
-  border: 3px solid yellow;
+  border: 3px solid rgb(219, 216, 216) ;
   border-bottom-color: black;
   width: 54%;
   height: 40px;
   left:25%;
 }
 
-#towing{
-  position: relative;
-  top: 70px;
-  /* border: 2px solid red;  */
+ 
   
-  }
-  
-  #emergCheckList{
+ h3{
     position: relative;
-    top: 67PX;
-    /* border: 2px solid red;  */
-    
-    }
-  
-    #supplementNfo{
-      position: relative;
-      top: 66PX;
-      /* border: 2px solid red;  */
-      
-      }
-  
-  h3{
-    position: relative;
-    /*border: 2px solid red;*/  
     width: 100%; 
     height: 20px; 
     left: 0px;
     text-align: center;
-  }
 
-.towingEngRun, .header{
+  }  
+
+ .towingEngRun{
   background-color: yellow;  
 }
 
@@ -111,4 +117,18 @@ body {
   background-color: #22cadb;
   text-align:center;
  
+} 
+
+
+  /* Footer styles */
+ 
+
+footer{
+  /* position: fixed; */
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  bottom: 0px; 
+  width: 100%;
 }
