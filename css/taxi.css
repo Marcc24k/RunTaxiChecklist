@@ -5,20 +5,47 @@
     padding: 0;
 }
 
-
+/* Content wrapper for columns */
 .wrapper {
   min-height: 100%;
  
 }
 
  
- 
+ /* General body attributes */
 body{
   background-color: grey;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1em;
 }
 
+/* Main  Container Header Attributes */
+#headerContainer {
+  width: 100%;
+  text-align: center;
+ 
+}
+
+/* Header Attributes */
+.header {
+  position: relative;
+  border: 3px solid rgb(219, 216, 216) ;
+  border-bottom-color: black;
+  width: 54%;
+  height: 40px;
+  left:25%;
+}
+
+ 
+  /* Heading Attributes */
+ h3{
+    position: relative;
+    width: 100%; 
+    height: 20px; 
+    left: 0px;
+    text-align: center;
+
+  }  
 
 
 /* Global Text Highlights */
@@ -29,6 +56,7 @@ strong{
 
 }
 
+/* Main Content Container */
 #container {
   position: relative;
   width: 70%;
@@ -45,7 +73,7 @@ strong{
 
  
 
-
+/* Content Conatiner Sub Container */
 #contentsContainer {
   /* border: 2px solid green; */
   height: 100%;
@@ -55,53 +83,31 @@ strong{
   padding: 10px;
   background-color: rgb(219, 216, 216);
 
-  
+
   }
 
+  /* Main Could Attributes */
  .column{
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  margin: 4%;
+  margin: 2%;
 
  }
 
  
- 
+ /* List Item Attributes  */
 .listItems{
   padding: 15px;
+  font-size: 27px;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold; 
    
 } 
 
- #headerContainer {
-  width: 100%;
-  text-align: center;
- 
-}
 
-.header {
-  position: relative;
-  border: 3px solid rgb(219, 216, 216) ;
-  border-bottom-color: black;
-  width: 54%;
-  height: 40px;
-  left:25%;
-}
-
- 
-  
- h3{
-    position: relative;
-    width: 100%; 
-    height: 20px; 
-    left: 0px;
-    text-align: center;
-
-  }  
-
+/* Main page index sections */
  .towingEngRun{
   background-color: yellow;  
 }
@@ -118,11 +124,11 @@ strong{
   text-align:center;
  
 } 
+/* Main page index End */
 
 
-  /* Footer styles */
- 
 
+/* Footer styles */
 footer{
   /* position: fixed; */
   background-color: #333;
