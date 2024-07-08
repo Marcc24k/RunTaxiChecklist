@@ -1,0 +1,86 @@
+   /* Reset default styles */
+   * {
+       box-sizing: border-box;
+       margin: 0px;
+       padding: 0px;
+       background-color: rgb(195, 190, 190);
+
+   }
+
+   #container {
+       height: 970px;
+   }
+
+   p {
+       background-color: #333;
+   }
+
+
+   /* Header Attributes */
+   .header {
+       position: relative;
+       border: 2px solid white;
+       font-size: 1.5em;
+       text-align: center;
+       background-color: #E9B824;
+       border-bottom-color: black;
+   }
+
+
+   /* Heading Attributes */
+   h3 {
+       position: relative;
+       width: 100%;
+       /* left: 0px; */
+       text-align: center;
+       font-size: 19px;
+       background-color: #EE9322;
+
+   }
+
+
+   /* Main Column Attributes */
+   .column {
+       display: flex;
+       flex-direction: column;
+       flex-basis: 100%;
+       flex: 1;
+       margin: 5%;
+       /* border: 2px solid red; */
+   }
+
+
+
+
+   /* List Item Attributes  */
+   .listItems {
+       font-family: "Concert One", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       font-size: 15px;
+       margin:5px;
+
+
+   }
+
+/* Emergency Checklist */
+ .emergencyCheck{
+    background-color:#D83F31;
+ }
+
+ /* Supplemental NFO */
+.suppleNfo{
+    background-color: #219C90 ;
+}
+
+
+   /* Footer styles */
+   footer {
+       position: fixed;
+       background-color: #333;
+       color: #fff;
+       text-align: center;
+       padding: 20px;
+       bottom: 0px;
+       width: 100%;
+   }
