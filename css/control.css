@@ -97,7 +97,7 @@ li{
     right: 6px;
     text-align: center;
     width: 25px;
-    z-index: 1;
+    z-index: auto;
 }
  
 
