@@ -1,113 +1,126 @@
    /* Reset default styles */
    * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(195, 190, 190);
+       box-sizing: border-box;
+       margin: 0px;
+       padding: 0px;
+       background-color: rgb(195, 190, 190);
 
-}
+   }
 
-/* All Link Attributes */
-a{
-    color: black;
-    text-decoration: none;
-}
-
-
-/* Main container */
-#container {
-    height: 1111px;
-    border: 5px solid #333333;
-}
+   /* All Link Attributes */
+   a {
+       color: black;
+       text-decoration: none;
+   }
 
 
-strong{
+   /* Main container */
+   #container {
+       height: 1111px;
+       border: 5px solid #333333;
+   }
+
+   strong{
     background-color:#3330;
      color: #0A6847; 
   }
   
+  
+  p strong{
+      color: #EE9322;
+  }
 
 
 
-/* Main Column Attributes */
-column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    margin: 5%;
-    /* border: 2px solid red; */
-}
+   /* Main Column Attributes */
+   column {
+       display: flex;
+       flex-direction: column;
+       flex-basis: 100%;
+       flex: 1;
+       margin: 5%;
+       /* border: 2px solid red; */
+   }
 
 
-/* Header */
-#controlSafety{
-    position: relative;
-    border: 2px solid white;
-    font-size: 1.5em;
-    text-align: center;
-    background-color: #E9B824;
-    border-bottom-color: black;
-}
+   /* Header */
+   #controlSafety {
+       position: relative;
+       border: 2px solid white;
+       font-size: 1.5em;
+       text-align: center;
+       background-color: #E9B824;
+       border-bottom-color: black;
+   }
 
-/* List Item Notes */
-.listItemsNotes{
+
+
+   /* List Item Notes */
+   .listItemsNotes {
+       font-family: "Concert One", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       font-size: 15px;
+       list-style-type: square;
+       color: #D83F31;
+       /* border: 2px solid black;  */
+   }
+
+   .listItems {
     font-family: "Concert One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
-    list-style-type: square; 
-    color:#D83F31;
-    /* border: 2px solid black;  */
+    margin: 5px;
 }
 
-li{
-    position: relative;
-    left: 9%;
-    padding: 5px;
-    width: 90%;
-}
- 
+   li {
+       position: relative;
+       left: 9%;
+       padding: 5px;
+       width: 90%;
+   }
 
 
-#preTaxi li{
-    position: relative;
-    left: 0px;
-    list-style: none;
-}
+
+   #preTaxi li {
+       position: relative;
+       left: 0px;
+       list-style: none;
+   }
 
 
-/* External Power page PG:2 */
-  .apuPowerStartPage a{
-    position: relative;
-    text-align: center;
-    color: #3824e9;
-}  
+   /* External Power page PG:2 */
+   .apuPowerStartPage a {
+       position: relative;
+       text-align: center;
+       color: #3824e9;
+   }
 
-/* Back Button */
-#backButton {
-    position: fixed;
-    background-color: #3333332b;
-    border-radius: 100%;
-    border: 3px solid #333;
-    color: #333;
-    font: italic bold 1.2em "Fira Sans", sans-serif;
-    height: 25px;
-    top: 2px;
-    right: 6px;
-    text-align: center;
-    width: 25px;
-    z-index: auto;
-}
- 
+   /* Back Button */
+   #backButton {
+       position: fixed;
+       background-color: #3333332b;
+       border-radius: 100%;
+       border: 3px solid #333;
+       color: #333;
+       font: italic bold 1.2em "Fira Sans", sans-serif;
+       height: 25px;
+       top: 2px;
+       right: 6px;
+       text-align: center;
+       width: 25px;
+       z-index: auto;
+   }
 
-/* Footer styles */
-footer p{
-    position: fixed;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    bottom: 0px;
-    width: 100%;
-}
+
+   /* Footer styles */
+   footer p {
+       position: fixed;
+       background-color: #333;
+       color: #fff;
+       text-align: center;
+       padding: 20px;
+       bottom: 0px;
+       width: 100%;
+   }
