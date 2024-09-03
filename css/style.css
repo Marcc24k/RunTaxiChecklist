@@ -1,37 +1,120 @@
    /* Reset default styles */
    * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(195, 190, 190);
+       box-sizing: border-box;
+       margin: 0px;
+       padding: 0px;
+       background-color: rgb(195, 190, 190);
 
-}
+   }
 
-/* All Link Attributes */
-a{
+/* NEED TO FIX THESE HOVER LINKS COLORS! */
+
+   /* All Link Attributes */
+   a {
     color: black;
-    text-decoration: none;
+    text-decoration:none;
+    background-color: transparent;
+   }
+
+
+
+   /* Main container */
+   #container {
+       height: 1060px;
+       border: 5px solid #333333;
+   }
+
+
+
+   strong {
+       background-color: #3330;
+       color: #0A6847;
+   }
+
+
+   p strong {
+       color: #EE9322;
+   }
+
+
+   /* Header Attributes */
+   .header {
+       position: relative;
+       border: 2px solid white;
+       font-size: 1.5em;
+       text-align: center;
+       background-color: #E9B824;
+       border-bottom-color: black;
+   }
+
+
+   /* Heading Attributes */
+   h3 {
+       position: relative;
+       width: 100%;
+       /* left: 0px; */
+       text-align: center;
+       font-size: 19px;
+       background-color: #EE9322;
+
+   }
+
+
+   /* Main Column Attributes */
+   .column {
+       display: flex;
+       flex-direction: column;
+       flex-basis: 100%;
+       flex: 1;
+       margin: 5%;
+       /* border: 2px solid red; */
+   }
+
+
+
+
+   /* List Item Attributes  */
+   .listItems {
+       font-family: "Concert One", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       font-size: 15px;
+       margin: 5px;
 }
 
-/* Main container */
-#container {
-    height: 955px;
-    border: 5px solid #333333;
-}
-
- 
-
-strong{
-  background-color:#3330;
-   color: #0A6847; 
+.listItems:hover{
+    color: yellow;
 }
 
 
-p strong{
-    color: #EE9322;
-}
+   /* Emergency Checklist */
+   .emergencyCheck {
+       background-color: #D83F31;
+   }
+
+   /* Supplemental NFO */
+   .suppleNfo {
+       background-color: #219C90;
+   }
+
+   /* Back Button */
+   #backButton {
+       position: fixed;
+       background-color: #3333332b;
+       border-radius: 100%;
+       border: 3px solid #333;
+       color: #333;
+       font: italic bold 1.2em "Fira Sans", sans-serif;
+       height: 25px;
+       top: 2px;
+       right: 6px;
+       text-align: center;
+       width: 25px;
+       z-index: auto;
+   }
 
 
+<<<<<<< HEAD
 /* Header Attributes */
 .header {
     position: relative;
@@ -120,3 +203,15 @@ footer p{
     bottom: 0px;
     width: 100%;
 }
+=======
+   /* Footer styles */
+   footer p {
+       position: fixed;
+       background-color: #333;
+       color: #fff;
+       text-align: center;
+       padding: 20px;
+       bottom: 0px;
+       width: 100%;
+   }
+>>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
