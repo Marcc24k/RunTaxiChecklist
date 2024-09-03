@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Run Taxi Checklist</title>
+
+  <!-- Links -->
+  <link rel="stylesheet" href="css/externalPower.css">
+  
+
+  <!-- <link rel="stylesheet" href="../css/responsive.css"> -->
+
+  <!-- FONTS -->
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<!-- WRAPPER -->
+
+<div class="wrapper">
+
+
+
+  <body>
+
+    <!-- Main Container -->
+    <div id="container">
+
+      <!--  All contents within container -->
+      <div id="contentsContainer">
+
+
+
+        <!----APU START PROCEDURES CONTAINTER----->
+        <div class="column">
+
+        
+
+              <!-- Towing -->
+            <div id="towing">
+
+              <h3 class="towingEngRun"> EXTERNAL POWER</h3>
+
+<!-- MUST CREATE THESE INTO ORDERED LISTS-->
+
+
+              <div class="listItems" id="externalPower">EXT PWR PUSHBUTTON.......<strong>PRESS</strong></div>
+              <div class="listItems" id="batPower">BAT PUSHBUTTON 1 & 2.......<strong>ON</strong></div>
+              <div class="listItems" id="genButtons">GEN 1,2 & 3 APU PUSHBUTTONS.......<strong>IN</strong></div>
+              <div class="listItems" id="ventPanel">VENTILATION PANEL.......<strong>NO LIGHTS ILLUMINATED</strong></div>
+              <div class="listItems" id="ecam">ECAM.......<strong>ADJUST BRIGHTNESS</strong></div>
+              
+            </div>
+
+         <h3 class="proceedNext"> PROCEED WITH APU START EXT POWER</h3>
+
+        </div>
+
+        <!-- Towing container end -->
+
+        <!----APU START EXT POWER CONTAINER----->
+        <div class="column emerg">
+
+       
+
+            <div id="emergCheckList">
+
+              <h3 class="aputStartExtPwer"> APU START WITH EXT POWER</h3>
+
+              <h3 class="warningNotes"> LIMIT APU FIRE TEST TO 3 SECONDS OR LESS TO PREVENT INADVERTANT DISCHARGE OF PAU FIRE BOTTLE</h3>
+
+              <div class="listItems" id="apuFire">APU FIRE PUSHBUTTON.......<strong>IN / GUARDED</strong></div>
+              <div class="listItems" id="apuExtig">APU AUTO EXTIG GND TEST C/B (L40).......<strong>PULL</strong></div>
+              <div class="listItems" id="apuFireTest">APU FIRE TEST.......<strong>PERFORM</strong></div>
+              <div class="listItems" id="apuExtig">APU AUTO EXTIG GND TEST C/B (L40).......<strong>RESET</strong></div>
+              <div class="listItems" id="apuMasterSwitch">APU MASTER SWITCH.......<strong>ADJUST BRIGHTNESS</strong></div>
+              <div class="listItems" id="apuStartPush">APU START PUSHBUTTON.......<strong>PRESS</strong></div>
+            
+            </div>
+        </strong>
+
+        <h3 class="proceedNext"> PROCEED WITH COCKPIT PREPARATION (PG.3)</h3>
+
+
+        </div>
+
+
+
+        <!--APU START BAT POWER CONTAINER  -->
+
+        <div class="column supple">      
+ 
+            <div id="supplementNfo">
+
+              <h3 class="aputStartBatPwer"> APU START ON BATTERIES</h3>
+
+              <h3 class="warningNotes"> LIMIT APU FIRE TEST TO 3 SECONDS OR LESS TO PREVENT INADVERTANT DISCHARGE OF PAU FIRE BOTTLE</h3>
+
+              <div class="listItems" id="apuBatPush">BAT PUSHBUTTON 1 & 2.......<strong>ON</strong></div>
+              <div class="listItems" id="apuMasterSwitch">APU MASTER SWITCH.......<strong>PRESS ON</strong></div>
+              <div class="listItems" id="apuBatPush">APU FIRE PUSHBUTTON.......<strong>IN / GUARDED</strong></div>
+              <div class="listItems" id="apuExtig">APU AUTO EXTIG GND TEST C/B (L40).......<strong>PULL</strong></div>
+              <div class="listItems" id="apuFireTest">APU FIRE TEST.......<strong>PERFORM</strong></div>
+              <div class="listItems" id="apuExtig">APU AUTO EXTIG GND TEST C/B (L40).......<strong>RESET</strong></div>
+              <div class="listItems" id="apuGenPush">APU GEN PUSHBUTTON.......<strong>IN</strong></div>
+              <div class="listItems" id="apuStartPush">APU START PUSHBUTTON.......<strong>PRESS</strong></div>
+              <div class="listItems" id="ventPanel">VENTILATION PANEL.......<strong>NO LIGHTS ILLUMINATED</strong></div>
+            
+
+            </div>
+        
+            <h3 class="proceedNext"> PROCEED WITH COCKPIT PREPARATION (PG.3)</h3>
+
+
+        </div>
+
+        <!-- SUPPLEMENT NFO -->
+
+      </div>
+      <!---Content Container End> ---->
+
+
+
+<!-- Go back to previous page -->
+<div id="backButton"> &#60 </div>
+
+    </div>
+
+
+    <footer>
+      <p><strong>For Reference Only:</strong> Created By Marc Cook (A&P) </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+
+  </body>
+
+</div> <!----WRAPPER------>
+
+</html>

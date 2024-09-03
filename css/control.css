@@ -16,7 +16,7 @@ a{
 
 /* Main container */
 #container {
-    height: 1111px;
+    height: 1211px;
     border: 5px solid #333333;
 }
 
@@ -61,6 +61,15 @@ column {
     /* border: 2px solid black;  */
 }
 
+.listItems {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin:5px;
+     
+}
+
 li{
     position: relative;
     left: 9%;
@@ -82,6 +91,11 @@ li{
     position: relative;
     text-align: center;
     color: #3824e9;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin: 20px;
 }  
 
 /* Back Button */
