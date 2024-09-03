@@ -15,19 +15,11 @@
 }
 
 
-<<<<<<< HEAD
 /* Main container */
 #container {
     height: 1211px;
     border: 5px solid #333333;
 }
-=======
-   /* Main container */
-   #container {
-       height: 1200px;
-       border: 5px solid #333333;
-   }
->>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
 
    strong{
     background-color:#3330;
@@ -83,7 +75,6 @@
     margin: 5px;
 }
 
-<<<<<<< HEAD
 .listItems {
     font-family: "Concert One", sans-serif;
     font-weight: 400;
@@ -100,14 +91,6 @@ li{
     width: 90%;
 }
  
-=======
-   li {
-       position: relative;
-       left: 9%;
-       padding: 5px;
-       width: 90%;
-   }
->>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
 
 
 
@@ -118,7 +101,6 @@ li{
    }
 
 
-<<<<<<< HEAD
 /* External Power page PG:2 */
   .apuPowerStartPage a{
     position: relative;
@@ -130,15 +112,6 @@ li{
     font-size: 15px;
     margin: 20px;
 }  
-=======
-   /* External Power page PG:2 */
-   .apuPowerStartPage  {
-       color: #3824e9;
-       font-weight: bold;
-       position: relative;
-       text-align: center;
-   }
->>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
 
    /* Back Button */
    #backButton {

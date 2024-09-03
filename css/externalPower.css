@@ -11,19 +11,12 @@
 a{
     color: black;
     text-decoration: none;
-<<<<<<< HEAD
-=======
     background-color: transparent;
->>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
 }
 
 /* Main container */
 #container {
-<<<<<<< HEAD
     height: 820px;
-=======
-    height: 1060px;
->>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
     border: 5px solid #333333;
 }
 
@@ -31,11 +24,7 @@ a{
 
 strong{
   background-color:#3330;
-<<<<<<< HEAD
-   color: hsl(115, 82%, 22%); 
-=======
    color: #0A6847; 
->>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
 }
 
 
@@ -44,9 +33,6 @@ p strong{
 }
 
 
-<<<<<<< HEAD
- 
-=======
 /* Header Attributes */
 .header {
     position: relative;
@@ -57,7 +43,6 @@ p strong{
     border-bottom-color: black;
 }
 
->>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
 
 /* Heading Attributes */
 h3 {
@@ -66,7 +51,6 @@ h3 {
     /* left: 0px; */
     text-align: center;
     font-size: 19px;
-<<<<<<< HEAD
     
 }
 
@@ -98,13 +82,6 @@ h3 {
 
 }
 
-=======
-    background-color: #EE9322;
-
-}
-
-
->>>>>>> c0425ede99514f9c405699b571698acd8eeb2048
 /* Main Column Attributes */
 .column {
     display: flex;
