@@ -82,6 +82,12 @@
        margin: 5px;
 }
 
+.listItems:hover{
+    color: yellow;
+}
+
+
+
 /* V2500 / PW100G ATTRIBUTES */
 
 .iaeEngine{
@@ -97,9 +103,6 @@
 
 
 
-.listItems:hover{
-    color: yellow;
-}
 
 
  

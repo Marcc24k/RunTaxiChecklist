@@ -97,21 +97,7 @@
        background-color: #219C90;
    }
 
-   /* Back Button */
-   #backButton {
-       position: fixed;
-       background-color: #3333332b;
-       border-radius: 100%;
-       border: 3px solid #333;
-       color: #333;
-       font: italic bold 1.2em "Fira Sans", sans-serif;
-       height: 25px;
-       top: 2px;
-       right: 6px;
-       text-align: center;
-       width: 25px;
-       z-index: auto;
-   }
+   
 
 
    
