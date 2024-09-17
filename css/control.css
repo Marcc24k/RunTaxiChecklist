@@ -17,7 +17,7 @@
 
 /* Main container */
 #container {
-    height: 1186px;
+    height: 1221px;
     border: 5px solid #333333;
 }
 
@@ -130,6 +130,15 @@ li{
    }
 
 
+   /* Page  */
+
+   #page {
+    position: absolute;
+    top: 1120px;
+    left: 160px;
+    font-size: 1.5em;
+}
+
    /* Footer styles */
    footer p {
        position: fixed;
@@ -140,3 +149,5 @@ li{
        bottom: 0px;
        width: 100%;
    }
+
+   

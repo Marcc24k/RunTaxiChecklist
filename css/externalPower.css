@@ -16,7 +16,7 @@ a{
 
 /* Main container */
 #container {
-    height: 848px;
+    height: 890px;
     border: 5px solid #333333;
 }
 
@@ -139,7 +139,17 @@ h3 {
     width: 25px;
     z-index: auto;
 }
- 
+    /* Page  */
+
+    #page {
+        position: absolute;
+        top: 785px;
+        left: 160px;
+        font-size: 1.5em;
+    }
+
+
+
 
 /* Footer styles */
 footer p{
