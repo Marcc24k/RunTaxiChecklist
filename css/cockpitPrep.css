@@ -20,7 +20,7 @@
 
    /* Main container */
    #container {
-       height: 1300px;
+       height: 1250px;
        border: 5px solid #333333;
    }
 
@@ -101,15 +101,9 @@
 
 
 
-
-
-
-
- 
-
    #page {
     position: absolute;
-    top: 1210px;
+    top: 1160px;
     left: 160px;
     font-size: 1.5em;
 }
