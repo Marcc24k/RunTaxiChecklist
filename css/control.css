@@ -1,141 +1,114 @@
-   /* Reset default styles */
-   * {
-       box-sizing: border-box;
-       margin: 0px;
-       padding: 0px;
-       background-color: rgb(195, 190, 190);
+/*    /* Reset default styles */
+* {
+      background-color: rgb(195, 190, 190);
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+  }
+/* All Link Attributes */
+a {
+      background-color: transparent;
+      color: black;
+      text-decoration: none;
+  }
+/* Main container */
+#container {
+      border: 5px solid #333333;
+      height: 1060px;
+      position: absolute;
+  }
+strong {
+      background-color: #3330;
+      color: #0A6847;
+  }
+p strong {
+      color: #EE9322;
+  }
+/* Header */
+#controlSafety {
+      background-color: #E9B824;
+      border: 2px solid white;
+      border-bottom-color: black;
+      font-size: 1.5em;
+      position: relative;
+      text-align: center;
+  }
+/* List Item Notes */
+.listItemsNotes {
+      color: #D83F31;
+      font-family: "Concert One", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      list-style-type: square;
+      padding: 0;
 
+      /* border: 2px solid rgb(187, 9, 9); */
+  }
+ul {
+      padding-left: 5%;
+      position: relative;
+  }
+li {
+      left: 9%;
+      padding: 5px;
+      position: relative;
+      width: 90%;
+  }
+#preTaxi {
+      color: black;
+      height: 42%;
+      position: relative;
+      width: 100%;
+      top: 8px;
+      z-index: 4;
 
-   }
-
-   /* All Link Attributes */
-   a {
-       color: black;
-       text-decoration: none;
-       background-color: transparent;
-   }
-
-
-   /* Main container */
-   #container {
-       height: 1044px;
-       border: 5px solid #333333;
-   }
-
-   strong {
-       background-color: #3330;
-       color: #0A6847;
-   }
-
-
-   p strong {
-       color: #EE9322;
-   }
-
-
-
-   /* Main Column Attributes */
-   column {
-       display: flex;
-       flex-direction: column;
-       flex-basis: 100%;
-       flex: 1;
-
-       /* border: 2px solid red; */
-   }
-
-
-   /* Header */
-   #controlSafety {
-       position: relative;
-       border: 2px solid white;
-       font-size: 1.5em;
-       text-align: center;
-       background-color: #E9B824;
-       border-bottom-color: black;
-   }
-
-
-
-   /* List Item Notes */
-   .listItemsNotes {
-       padding: 0;
-       font-family: "Concert One", sans-serif;
-       font-weight: 400;
-       font-style: normal;
-       font-size: 14px;
-       list-style-type: square;
-       color: #D83F31;
-       /* border: 2px solid rgb(187, 9, 9); */
-   }
-
-   ul {
-       position: relative;
-       padding-left: 5%;
-   }
-
-   li {
-       position: relative;
-       left: 9%;
-       padding: 5px;
-       width: 90%;
-   }
-
-
-   #preTaxi {
-    position: relative;
-    width: 100%;
-    height: 44%;
-    /* border: 2px solid green; */
-    /* padding: 20px; */
-    z-index: 4;
-}
-
+      /* border: 2px solid green; */
+      /* padding: 20px; */
+  }
 #preTaxi li {
-    font-family: "Concert One", sans-serif;
-    /* font-weight: 400; */
-    /* font-style: normal; */
-    /* font-size: 15px; */
-    /* margin: 5px; */
-    /* left: 0px; */
-    list-style: none;
-}
+      font-family: "Concert One", sans-serif;
+      list-style: none;
 
+      /* font-weight: 400; */
+      /* font-style: normal; */
+      /* font-size: 15px; */
+      /* margin: 5px; */
+      /* left: 0px; */
+  }
+/* External Power page PG:2 */
+.apuPowerStartPage {
+      color: #3824e9;
+      font-family: "Concert One", sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      position: relative;
+      text-align: center;
+      top: 18px;
+      width: 100%;
 
-   /* External Power page PG:2 */
-   .apuPowerStartPage {
-       position: relative;
-       width: 100%;
-       /* border: 2px solid red; */
-       text-align: center;
-       /* bottom: 410px; */
-       color: #3824e9;
-       font-family: "Concert One", sans-serif;
-       font-weight: 400;
-       font-style: normal;
-       font-size: 15px;
-   }
+      /* border: 2px solid red; */
+      /* bottom: 410px; */
+  }
+/* Page  */
+#page {
+      font-size: 1em;
+      position: relative;
+      text-align: center;
+      top: 33px;
+      width: 100%;
 
-
-   /* Page  */
-
-   #page {
-       position: relative;
-       top: 10px;
-       font-size: 1em;
-       width: 100%;
-       text-align: center;
-       /* border: 2px solid red; */
-   }
-
-   /* Footer styles */
-   footer p {
-       position: fixed;
-       background-color: #333;
-       color: #fff;
-       text-align: center;
-       padding: 20px;
-       left: 0px;
-       bottom: 0px;
-       width: 100%;
-   }
+      /* border: 2px solid red; */
+  }
+/* Footer styles */
+footer p {
+      background-color: #333;
+      bottom: 0px;
+      color: #fff;
+      left: 0px;
+      padding: 20px;
+      position: fixed;
+      text-align: center;
+      width: 100%;
+  }
