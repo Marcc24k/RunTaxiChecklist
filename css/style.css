@@ -1,114 +1,89 @@
    /* Reset default styles */
    * {
-       box-sizing: border-box;
-       margin: 0px;
-       padding: 0px;
-       background-color: rgb(195, 190, 190);
-
-   }
-
-/* NEED TO FIX THESE HOVER LINKS COLORS! */
-
+         background-color: rgb(195, 190, 190);
+         box-sizing: border-box;
+         margin: 0px;
+         padding: 0px;
+      }
+   /* NEED TO FIX THESE HOVER LINKS COLORS! */
    /* All Link Attributes */
    a {
-    color: black;
-    text-decoration:none;
-    background-color: transparent;
-   }
-
-
-
+         background-color: transparent;
+         color: black;
+         text-decoration: none;
+      }
    /* Main container */
    #container {
-       height: 1044px;
-       border: 5px solid #333333;
-   }
-
-
-
+         border: 5px solid #333333;
+         height: 1044px;
+         position: absolute;
+         width: 100%;
+      }
    strong {
-       background-color: #3330;
-       color: #0A6847;
-   }
-
-
+         background-color: #3330;
+         color: #0A6847;
+      }
    p strong {
-       color: #EE9322;
-   }
-
-
+         color: #EE9322;
+      }
    /* Header Attributes */
    .header {
-       position: relative;
-       border: 2px solid white;
-       font-size: 1.5em;
-       text-align: center;
-       background-color: #E9B824;
-       border-bottom-color: black;
-   }
-
-
+         background-color: #E9B824;
+         border: 2px solid white;
+         border-bottom-color: black;
+         font-size: 1.5em;
+         height: auto;
+         position: relative;
+         text-align: center;
+         width: 100%;
+      }
    /* Heading Attributes */
    h3 {
-       position: relative;
-       width: 100%;
-       /* left: 0px; */
-       text-align: center;
-       font-size: 19px;
-       background-color: #EE9322;
+         background-color: #EE9322;
+         font-size: 19px;
+         position: relative;
+         text-align: center;
+         width: 100%;
 
-   }
-
-
+         /* left: 0px; */
+      }
    /* Main Column Attributes */
    .column {
-       display: flex;
-       flex-direction: column;
-       flex-basis: 100%;
-       flex: 1;
-       margin: 5%;
-       /* border: 2px solid red; */
-   }
+         display: flex;
+         flex: 1;
+         flex-basis: 100%;
+         flex-direction: column;
+         margin: 5%;
 
-
-
-
-   /* List Item Attributes  */
-   .listItems {
-       font-family: "Concert One", sans-serif;
-       font-weight: 400;
-       font-style: normal;
-       font-size: 15px;
-       margin: 5px;
-}
-
-.listItems:hover{
-    color: yellow;
-}
-
-
+         /* border: 2px solid red; */
+      }
    /* Emergency Checklist */
    .emergencyCheck {
-       background-color: #D83F31;
-   }
-
+         background-color: #D83F31;
+      }
+   /* List Item Attributes  */
+   .listItems {
+         font-family: "Concert One", sans-serif;
+         font-size: 15px;
+         font-style: normal;
+         font-weight: 400;
+         margin: 5px;
+      }
+   /* YELLOW UPON HOVER */
+   .listItems:hover, a:hover {
+         color: yellow;
+      }
    /* Supplemental NFO */
    .suppleNfo {
-       background-color: #219C90;
-   }
-
-   
-
-
-   
-
+         background-color: #219C90;
+      }
    /* Footer styles */
    footer p {
-       position: fixed;
-       background-color: #333;
-       color: #fff;
-       text-align: center;
-       padding: 20px;
-       bottom: 0px;
-       width: 100%;
-   }
+         background-color: #333;
+         bottom: 0px;
+         color: #fff;
+         padding: 20px;
+         position: fixed;
+         text-align: center;
+         width: 100%;
+      }

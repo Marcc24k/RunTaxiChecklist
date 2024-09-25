@@ -1,123 +1,112 @@
    /* Reset default styles */
    * {
-       box-sizing: border-box;
-       margin: 0px;
-       padding: 0px;
-       background-color: rgb(195, 190, 190);
-
+      background-color: rgb(195, 190, 190);
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
    }
-
-/* NEED TO FIX THESE HOVER LINKS COLORS! */
-
-   /* All Link Attributes */
-   a {
-    color: black;
-    text-decoration:none;
+/* GLOBAL VARIABLES */
+:root {
+    /* DEFAULT */
+    --black: #000000;
+    /* HEADINGS */
+    --headings: #E9B824;
+    /* PROCEED NEXT */
+    --proceedNext: #00008b;
+    /* STRONG TAGS */
+    --strong: #0A6847;
+    /* WARNING NOTES / CIRCUIT BREAKERS*/
+    --warningsBreakers: #D83F31;
+    /* PARAGRAPH STRONG */
+    --pargraphStrong: #EE9322;
+    
+}
+/* YELLOW UPON HOVER */
+ .listItems:hover, a:hover, .proceedNext:hover {
+   color: yellow;
+}
+/* All Link Attributes */
+a{
     background-color: transparent;
-   }
-
-
-
-   /* Main container */
-   #container {
-       height: 1300px;
-       border: 5px solid #333333;
-   }
-
-
-
-   strong {
-       background-color: #3330;
-       color: #0A6847;
-   }
-
-
-   p strong {
-       color: #EE9322;
-   }
-
-
-   /* Header Attributes */
-   .header {
-       position: relative;
-       border: 2px solid white;
-       font-size: 1.5em;
-       text-align: center;
-       background-color: #E9B824;
-       border-bottom-color: black;
-   }
-
-
-   /* Heading Attributes */
-   h3 {
-       position: relative;
-       width: 100%;
-       /* left: 0px; */
-       text-align: center;
-       font-size: 14px;
-       background-color: #EE9322;
-
-   }
-
-
-   /* Main Column Attributes */
-   .column {
-       display: flex;
-       flex-direction: column;
-       flex-basis: 100%;
-       flex: 1;
-       margin: 5%;
-       /* border: 2px solid red; */
-   }
-
-
-
-
-   /* List Item Attributes  */
-   .listItems {
-       font-family: "Concert One", sans-serif;
-       font-weight: 400;
-       font-style: normal;
-       font-size: 15px;
-       margin: 5px;
+    color: var(--black);
+    text-decoration: none;
 }
 
-.listItems:hover{
-    color: yellow;
-}
-
-
-
-/* V2500 / PW100G ATTRIBUTES */
-
-.iaeEngine{
-    background-color:#4682b4;
-
-} 
-
-.pratWhitney{
-    background-color: #53b446;
-}
-
-
-
-   #page {
-    position: absolute;
-    top: 1210px;
-    left: 160px;
+.header{
+    background-color: #E9B824;
+    border: 2px solid white;
+    border-bottom-color: black;
     font-size: 1.5em;
+    height: auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
-
-
+h5{
+      font-family: "Concert One", sans-serif;
+      font-style: normal;
+      margin:5px;
+      font-size: 15px;
+   }
+ 
+ 
+/* Main container */
+#container {
+      border: 5px solid #333333;
+      height: 1325px;
+      position: absolute;
+      width:100%;
+    }
+    /* Main Column Attributes */
+.column {
+          display: flex;
+          flex: 1;
+          flex-basis: 100%;
+          flex-direction: column;
+          margin: 5%;
+    
+          /* border: 2px solid red; */
+       } 
+strong{
+    background-color:#3330;
+    color:  var(--strong);
+ }
+p strong{
+      color: var(--pargraphStrong) 
+   }
+/* Heading Attributes */
+/* LIST ITEM HEADINGS */
+ /* PROCEED NEXT */
+ .proceedNext {
+    font-family: "Concert One", sans-serif;
+    font-size: 15px;
    
+    color: var(--proceedNext);
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    width: 100%;
 
-   /* Footer styles */
-   footer p {
-       position: fixed;
-       background-color: #333;
-       color: #fff;
-       text-align: center;
-       padding: 20px;
-       bottom: 0px;
-       width: 100%;
+    /* left: 0px; */
+ }
+  /* Page  */
+  #page {
+    font-size: 1em;
+   width: 100%;
+   text-align: center;
+    position: relative;
+    top:5px;
+    height: auto;
+    /* border: 2px solid green; */
+    text-align: center;
+}
+/* Footer styles */
+footer p{
+      background-color: #333;
+      bottom: 0px;
+      color: #fff;
+      padding: 20px;
+      position: fixed;
+      text-align: center;
+      width: 100%;
    }

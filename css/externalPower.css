@@ -1,149 +1,128 @@
    /* Reset default styles */
    * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(195, 190, 190);
+        background-color: rgb(195, 190, 190);
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+     }
+   /* GLOBAL VARIABLES */
+   :root {
+        --black: #000000;
+        --headings: #E9B824;
+        --proceedNext: #00008b;
+        --strong: #0A6847;
+        --warningsBreakers: #D83F31;
 
+      /* WARNING NOTES / CIRCUIT BREAKERS*/
+        /* PROCEED NEXT */
+        /* DEFAULT */
+        /* HEADINGS */
+        /* PROCEED NEXT */
+        /* STRONG TAGS */
+     }
+   /* YELLOW UPON HOVER */
+ .listItems:hover, a:hover, .proceedNext {
+  color: yellow;
 }
+   /* All Link Attributes */
+   a {
+        background-color: transparent;
+        color: var(--proceedNext);
+        text-decoration: none;
+     }
+   /* Main container */
+   #container {
+        border: 5px solid #333333;
+        height: 860px;
+     }
+   strong {
+        background-color: #3330;
+        color: var(--strong);
 
-/* All Link Attributes */
-a{
-    color: black;
-    text-decoration: none;
-    background-color: transparent;
-}
+        /* Green*/
+     }
+   p strong {
+        color: #EE9322;
+     }
+   /* Heading Attributes */
+   h3 {
+        font-size: 19px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+     }
+   /* HEADINGS  */
+   .towingEngRun,
+   .aputStartBatPwer,
+   .aputStartExtPwer {
+        background-color: var(--headings);
+     }
+   /* CIRCUIT BREAKERS */
+   .CB {
+        color: var(--warningsBreakers);
+     }
+   .proceedNext {
+        color: var(--proceedNext);
+        font-size: 13px;
+        padding: 10px;
+        position: relative;
+        text-align: center;
+        top: 7px;
+        width: 100%;
 
-/* Main container */
-#container {
-    height: 860px;
-    border: 5px solid #333333;
-}
+        /* left: 0px; */
+     }
+   .warningNotes {
+        color: var(--warningsBreakers);
+        font-size: 11px;
+        padding: 5px;
+        position: relative;
+        text-align: center;
+        width: 100%;
 
- 
+        /* left: 0px; */
+     }
+   /* Main Column Attributes */
+   .column {
+        display: flex;
+        flex: 1;
+        flex-basis: 100%;
+        flex-direction: column;
+        margin: 5%;
 
-strong{
-  background-color:#3330;
-   color: #0A6847; 
-}
+        /* border: 2px solid red; */
+     }
+   /* LIST ITEM HEADINGS */
+   h5 {
+        font-family: "Concert One", sans-serif;
+        font-style: normal;
+        margin: 5px;
 
-
-p strong{
-    color: #EE9322;
-}
-
-
-/* Header Attributes */
-.header {
-    position: relative;
-    border: 2px solid white;
-    font-size: 1.5em;
-    text-align: center;
-    background-color: #E9B824;
-    border-bottom-color: black;
-}
-
-
-/* Heading Attributes */
-h3 {
-    position: relative;
-    width: 100%;
-    /* left: 0px; */
-    text-align: center;
-    font-size: 19px;
-    
-}
-
-.towingEngRun, 
-.aputStartBatPwer,
-.aputStartExtPwer{
-
-    background-color: #E9B824;
-}
-
-
-/* CIRCUIT BREAKERS */
-
-.CB{
-    color: #D83F31;
-    
-}
-
-.proceedNext{
-    position: relative;
-    width: 100%;
-    /* left: 0px; */
-    text-align: center;
-    font-size: 13px;
-    padding: 10px;
-    color: hsl(215, 82%, 22%); 
-}
-
-.warningNotes{
-    position: relative;
-    width: 100%;
-    /* left: 0px; */
-    text-align: center;
-    font-size: 11px;
-    padding: 5px;
-    color: #D83F31; 
-
-}
-
-/* Main Column Attributes */
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    margin: 5%;
-    /* border: 2px solid red; */
-}
-
-
-
-
-/* List Item Attributes  */
-.listItems {
-    font-family: "Concert One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    margin:5px;
-     
-}
-
-
-/* Emergency Checklist */
-.emergencyCheck{
- background-color:#D83F31;
-}
-
-/* Supplemental NFO */
-.suppleNfo{
- background-color: #219C90 ;
-}
-
-
-    /* Page  */
-
-    #page {
-        position: absolute;
-        top: 772px;
+        /* font-weight: 400; */
+        /* font-size: 15px; */
+     }
+   /* Emergency Checklist */
+   .emergencyCheck {
+        background-color: var(--warningsBreakers);
+     }
+   /* Supplemental NFO */
+   .suppleNfo {
+        background-color: #219C90;
+     }
+   /* Page  */
+   #page {
+        font-size: 1em;
         left: 160px;
-        font-size: 1.5em;
-    }
-
-
-
-
-/* Footer styles */
-footer p{
-    position: fixed;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    bottom: 0px;
-    width: 100%;
-}
+        position: absolute;
+        top: 770px;
+     }
+   /* Footer styles */
+   footer p {
+        background-color: #333;
+        bottom: 0px;
+        color: #fff;
+        padding: 20px;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+     }

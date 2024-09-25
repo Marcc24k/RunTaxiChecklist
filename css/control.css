@@ -1,114 +1,137 @@
 /*    /* Reset default styles */
 * {
-      background-color: rgb(195, 190, 190);
-      box-sizing: border-box;
-      margin: 0px;
-      padding: 0px;
+            background-color: rgb(195, 190, 190);
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
   }
+  /* GLOBAL VARIABLES */
+  :root {
+          --black: #000000;
+          --headings: #E9B824;
+          --proceedNext: #00008b;
+          --strong: #0A6847;
+          --warningsBreakers: #D83F31;
+
+        /* WARNING NOTES / CIRCUIT BREAKERS*/
+          /* PROCEED NEXT */
+          /* DEFAULT */
+          /* HEADINGS */
+          /* PROCEED NEXT */
+          /* STRONG TAGS */
+}
 /* All Link Attributes */
 a {
-      background-color: transparent;
-      color: black;
-      text-decoration: none;
+            background-color: transparent;
+            color:var(--proceedNext);
+            text-decoration: none;
   }
-/* Main container */
+/*  *PARENT* Main container */
 #container {
-      border: 5px solid #333333;
-      height: 1060px;
-      position: absolute;
+            border: 5px solid #333333;
+            height: 1060px;
+            position: absolute;
+            width: 100%;
+
+            /* height: auto; */
   }
 strong {
-      background-color: #3330;
-      color: #0A6847;
+            background-color: #3330;
+            color: #0A6847;
   }
 p strong {
-      color: #EE9322;
+            color: #EE9322;
   }
 /* Header */
 #controlSafety {
-      background-color: #E9B824;
-      border: 2px solid white;
-      border-bottom-color: black;
-      font-size: 1.5em;
-      position: relative;
-      text-align: center;
+            background-color: #E9B824;
+            border: 2px solid white;
+            border-bottom-color: black;
+            font-size: 1.5em;
+            position: relative;
+            text-align: center;
   }
-/* List Item Notes */
+/* *CHILD-ONE* List Item Notes */
 .listItemsNotes {
-      color: #D83F31;
-      font-family: "Concert One", sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      list-style-type: square;
-      padding: 0;
+          color: #D83F31;
+          font-family: "Concert One", sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          height: auto;
+          list-style-type: square;
+          padding: 0;
+          position: relative;
+          width: 100%;
 
-      /* border: 2px solid rgb(187, 9, 9); */
-  }
-ul {
-      padding-left: 5%;
-      position: relative;
-  }
-li {
-      left: 9%;
-      padding: 5px;
-      position: relative;
-      width: 90%;
-  }
+          /* border: 2px solid rgb(187, 9, 9); */
+}
+ /* YELLOW UPON HOVER */
+/* YELLOW UPON HOVER */
+.listItems:hover, a:hover, .proceedNext {
+          color: yellow;
+}
+  /* *CHILD-TWO*  */
 #preTaxi {
-      color: black;
-      height: 42%;
-      position: relative;
-      width: 100%;
-      top: 8px;
-      z-index: 4;
+            color: black;
+            height: auto;
+            position: relative;
+            top: 8px;
+            width: 100%;
+            z-index: 4;
 
-      /* border: 2px solid green; */
-      /* padding: 20px; */
+            /* border: 2px solid green; */
+            /* padding: 20px; */
   }
 #preTaxi li {
-      font-family: "Concert One", sans-serif;
-      list-style: none;
-
-      /* font-weight: 400; */
-      /* font-style: normal; */
-      /* font-size: 15px; */
-      /* margin: 5px; */
-      /* left: 0px; */
+            font-family: "Concert One", sans-serif;
+            list-style: none;
+  }
+ul {
+            padding-left: 5%;
+            position: relative;
+  }
+li {
+            left: 9%;
+            padding: 5px;
+            position: relative;
+            width: 90%;
   }
 /* External Power page PG:2 */
-.apuPowerStartPage {
-      color: #3824e9;
-      font-family: "Concert One", sans-serif;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 400;
-      position: relative;
-      text-align: center;
-      top: 18px;
-      width: 100%;
+#apuPowerStartPage {
+            color: var(--proceedNext);
+            font-family: "Concert One", sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            height: auto;
+            position: relative;
+            text-align: center;
+            top: 20px;
+            width: 100%;
 
-      /* border: 2px solid red; */
-      /* bottom: 410px; */
+            /* border: 2px solid red; */
+            /* bottom: 410px; */
   }
 /* Page  */
 #page {
-      font-size: 1em;
-      position: relative;
-      text-align: center;
-      top: 33px;
-      width: 100%;
+            font-size: 1em;
+            height: auto;
+            position: relative;
+            text-align: center;
+            top: 30px;
+            width: 100%;
 
-      /* border: 2px solid red; */
+            /* border: 2px solid red; */
   }
 /* Footer styles */
 footer p {
-      background-color: #333;
-      bottom: 0px;
-      color: #fff;
-      left: 0px;
-      padding: 20px;
-      position: fixed;
-      text-align: center;
-      width: 100%;
+            background-color: #333;
+            bottom: 0px;
+            color: #fff;
+            left: 0px;
+            padding: 20px;
+            position: fixed;
+            text-align: center;
+            width: 100%;
   }
