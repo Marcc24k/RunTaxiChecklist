@@ -1,89 +1,90 @@
    /* Reset default styles */
    * {
-         background-color: rgb(195, 190, 190);
-         box-sizing: border-box;
-         margin: 0px;
-         padding: 0px;
-      }
+           background-color: rgb(195, 190, 190);
+           box-sizing: border-box;
+           margin: 0px;
+           padding: 0px;
+        }
    /* NEED TO FIX THESE HOVER LINKS COLORS! */
    /* All Link Attributes */
    a {
-         background-color: transparent;
-         color: black;
-         text-decoration: none;
-      }
+           background-color: transparent;
+           color: black;
+           text-decoration: none;
+        }
    /* Main container */
    #container {
-         border: 5px solid #333333;
-         height: 1044px;
-         position: absolute;
-         width: 100%;
-      }
+        border: 5px solid #333333;
+        height: 92vh;
+        overflow-y: scroll;
+        position: absolute;
+        width: 100%;
+     }
    strong {
-         background-color: #3330;
-         color: #0A6847;
-      }
+           background-color: #3330;
+           color: #0A6847;
+        }
    p strong {
-         color: #EE9322;
-      }
+           color: #EE9322;
+        }
    /* Header Attributes */
    .header {
-         background-color: #E9B824;
-         border: 2px solid white;
-         border-bottom-color: black;
-         font-size: 1.5em;
-         height: auto;
-         position: relative;
-         text-align: center;
-         width: 100%;
-      }
+           background-color: #E9B824;
+           border: 2px solid white;
+           border-bottom-color: black;
+           font-size: 1.5em;
+           height: auto;
+           position: relative;
+           text-align: center;
+           width: 100%;
+        }
    /* Heading Attributes */
    h3 {
-         background-color: #EE9322;
-         font-size: 19px;
-         position: relative;
-         text-align: center;
-         width: 100%;
+           background-color: #EE9322;
+           font-size: 19px;
+           position: relative;
+           text-align: center;
+           width: 100%;
 
-         /* left: 0px; */
-      }
+           /* left: 0px; */
+        }
    /* Main Column Attributes */
    .column {
-         display: flex;
-         flex: 1;
-         flex-basis: 100%;
-         flex-direction: column;
-         margin: 5%;
+           display: flex;
+           flex: 1;
+           flex-basis: 100%;
+           flex-direction: column;
+           margin: 5%;
 
-         /* border: 2px solid red; */
-      }
+           /* border: 2px solid red; */
+        }
    /* Emergency Checklist */
    .emergencyCheck {
-         background-color: #D83F31;
-      }
+           background-color: #D83F31;
+        }
    /* List Item Attributes  */
    .listItems {
-         font-family: "Concert One", sans-serif;
-         font-size: 15px;
-         font-style: normal;
-         font-weight: 400;
-         margin: 5px;
-      }
+           font-family: "Concert One", sans-serif;
+           font-size: 15px;
+           font-style: normal;
+           font-weight: 400;
+           margin: 5px;
+        }
    /* YELLOW UPON HOVER */
    .listItems:hover, a:hover {
-         color: yellow;
-      }
+           color: yellow;
+        }
    /* Supplemental NFO */
    .suppleNfo {
-         background-color: #219C90;
-      }
+           background-color: #219C90;
+        }
    /* Footer styles */
    footer p {
-         background-color: #333;
-         bottom: 0px;
-         color: #fff;
-         padding: 20px;
-         position: fixed;
-         text-align: center;
-         width: 100%;
-      }
+           background-color: #333;
+           bottom: 0px;
+           color: #fff;
+           padding: 20px;
+           position: fixed;
+           text-align: center;
+           width: 100%;
+        }

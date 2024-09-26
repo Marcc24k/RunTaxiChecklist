@@ -28,13 +28,12 @@ a {
   }
 /*  *PARENT* Main container */
 #container {
-            border: 5px solid #333333;
-            height: 1060px;
-            position: absolute;
-            width: 100%;
-
-            /* height: auto; */
-  }
+  border: 5px solid #333333;
+  height: 89vh;
+  position: absolute;
+  width: 100%;
+  overflow-y: scroll;
+}
 strong {
             background-color: #3330;
             color: #0A6847;

@@ -32,9 +32,12 @@
      }
    /* Main container */
    #container {
-        border: 5px solid #333333;
-        height: 860px;
-     }
+    border: 5px solid #333333;
+    height: 111vh;
+    position: absolute;
+    width: 100%;
+    overflow-y: scroll;
+}
    strong {
         background-color: #3330;
         color: var(--strong);

@@ -1,112 +1,111 @@
    /* Reset default styles */
    * {
-      background-color: rgb(195, 190, 190);
-      box-sizing: border-box;
-      margin: 0px;
-      padding: 0px;
-   }
+        background-color: rgb(195, 190, 190);
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+     }
 /* GLOBAL VARIABLES */
 :root {
-    /* DEFAULT */
-    --black: #000000;
-    /* HEADINGS */
-    --headings: #E9B824;
-    /* PROCEED NEXT */
-    --proceedNext: #00008b;
-    /* STRONG TAGS */
-    --strong: #0A6847;
+      --black: #000000;
+      --headings: #E9B824;
+      --pargraphStrong: #EE9322;
+      --proceedNext: #00008b;
+      --strong: #0A6847;
+      --warningsBreakers: #D83F31;
+
     /* WARNING NOTES / CIRCUIT BREAKERS*/
-    --warningsBreakers: #D83F31;
-    /* PARAGRAPH STRONG */
-    --pargraphStrong: #EE9322;
-    
-}
+      /* DEFAULT */
+      /* HEADINGS */
+      /* PROCEED NEXT */
+      /* STRONG TAGS */
+      /* PARAGRAPH STRONG */
+   }
 /* YELLOW UPON HOVER */
  .listItems:hover, a:hover, .proceedNext:hover {
-   color: yellow;
-}
+     color: yellow;
+  }
 /* All Link Attributes */
 a{
-    background-color: transparent;
-    color: var(--black);
-    text-decoration: none;
-}
-
-.header{
-    background-color: #E9B824;
-    border: 2px solid white;
-    border-bottom-color: black;
-    font-size: 1.5em;
-    height: auto;
-    position: relative;
-    text-align: center;
-    width: 100%;
-}
-h5{
-      font-family: "Concert One", sans-serif;
-      font-style: normal;
-      margin:5px;
-      font-size: 15px;
+      background-color: transparent;
+      color: var(--black);
+      text-decoration: none;
    }
- 
- 
+.header{
+      background-color: #E9B824;
+      border: 2px solid white;
+      border-bottom-color: black;
+      font-size: 1.5em;
+      height: auto;
+      position: relative;
+      text-align: center;
+      width: 100%;
+   }
+h5{
+        font-family: "Concert One", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        margin:5px;
+     } 
 /* Main container */
 #container {
-      border: 5px solid #333333;
-      height: 1325px;
-      position: absolute;
-      width:100%;
-    }
+     border: 5px solid #333333;
+     height: 92vh;
+     overflow-y: scroll;
+     position: absolute;
+     width: 100%;
+  }
     /* Main Column Attributes */
 .column {
-          display: flex;
-          flex: 1;
-          flex-basis: 100%;
-          flex-direction: column;
-          margin: 5%;
-    
-          /* border: 2px solid red; */
-       } 
+            display: flex;
+            flex: 1;
+            flex-basis: 100%;
+            flex-direction: column;
+            margin: 5%;
+
+            /* border: 2px solid red; */
+         } 
 strong{
-    background-color:#3330;
-    color:  var(--strong);
- }
-p strong{
-      color: var(--pargraphStrong) 
+      background-color:#3330;
+      color:  var(--strong);
    }
+p strong{
+      color: var(--pargraphStrong)
+     }
 /* Heading Attributes */
 /* LIST ITEM HEADINGS */
  /* PROCEED NEXT */
  .proceedNext {
-    font-family: "Concert One", sans-serif;
-    font-size: 15px;
-   
-    color: var(--proceedNext);
-    padding: 5px;
-    position: relative;
-    text-align: center;
-    width: 100%;
-
-    /* left: 0px; */
- }
-  /* Page  */
-  #page {
-    font-size: 1em;
-   width: 100%;
-   text-align: center;
-    position: relative;
-    top:5px;
-    height: auto;
-    /* border: 2px solid green; */
-    text-align: center;
-}
-/* Footer styles */
-footer p{
-      background-color: #333;
-      bottom: 0px;
-      color: #fff;
-      padding: 20px;
-      position: fixed;
+      bottom:15px;
+      color: var(--proceedNext);
+      font-family: "Concert One", sans-serif;
+      font-size: 15px;
+      padding: 5px;
+      position: relative;
       text-align: center;
       width: 100%;
+
+      /* left: 0px; */
    }
+  /* Page  */
+  #page {
+      bottom:5px;
+      font-size: 1em;
+      height: auto;
+      position: relative;
+      text-align: center;
+      text-align: center;
+      width: 100%;
+
+      /* border: 2px solid green; */
+   }
+/* Footer styles */
+footer p{
+        background-color: #333;
+        bottom: 0px;
+        color: #fff;
+        padding: 20px;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+     }
