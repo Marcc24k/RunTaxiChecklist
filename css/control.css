@@ -30,7 +30,7 @@ a {
 #container {
     border: 5px solid #333333;
     border-bottom: rgb(195, 190, 190);
-    height: 92vh;
+    height: 91%;
     overflow-y: scroll;
     position: absolute;
     width: 100%;
