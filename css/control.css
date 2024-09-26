@@ -33,7 +33,7 @@ a {
 #container {
   border: 5px solid #333333;
   border-bottom: rgb(195, 190, 190);
-  height: 94%;
+  height: 90%;
   overflow-y: scroll;
   position: absolute;
   width: 100%;
@@ -143,14 +143,36 @@ li {
 }
 
 /* Footer styles */
-footer p {
-  background-color: #333;
-  bottom: 0px;
-  color: #fff;
-  height: 60px;
-  left: 0px;
-  padding: 15px;
-  position: fixed;
-  text-align: center;
-  width: 100%;
-}
+
+   /* Footer styles */
+   footer {
+    background-color: #333;
+    bottom: 0px;
+    color: #fff;
+    height: 11%;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+ }
+
+ footer p {
+    background-color: #333;
+    padding: 20px;
+ }
+
+
+
+
+
+ /* MEDIA QUERIES BELOW */
+
+   /* Extra small devices (phones, 320px and down) */
+   @media only screen and (max-width: 320px) {
+    #container{ height: 91%;}
+    footer p{ padding: 5px;}
+   } 
+   
+   #page{
+     top:15px;
+   padding: 10px; }

@@ -3,6 +3,10 @@
  #container{ height: 91%;}
  footer p{ padding: 5px;}
 } 
+
+#page{
+  top:15px;
+padding: 10px; }
  
  /* @media only screen and (max-width: 420px) {
   #container{
