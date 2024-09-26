@@ -1,131 +1,153 @@
-   /* Reset default styles */
+ 
+ 
+/* Reset default styles */
    * {
-        background-color: rgb(195, 190, 190);
-        box-sizing: border-box;
-        margin: 0px;
-        padding: 0px;
-     }
+     background-color: rgb(195, 190, 190);
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+   }
+
    /* GLOBAL VARIABLES */
    :root {
-        --black: #000000;
-        --headings: #E9B824;
-        --proceedNext: #00008b;
-        --strong: #0A6847;
-        --warningsBreakers: #D83F31;
+     --black: #000000;
+     --headings: #E9B824;
+     --proceedNext: #00008b;
+     --strong: #0A6847;
+     --warningsBreakers: #D83F31;
 
-      /* WARNING NOTES / CIRCUIT BREAKERS*/
-        /* PROCEED NEXT */
-        /* DEFAULT */
-        /* HEADINGS */
-        /* PROCEED NEXT */
-        /* STRONG TAGS */
-     }
+     /* WARNING NOTES / CIRCUIT BREAKERS*/
+     /* PROCEED NEXT */
+     /* DEFAULT */
+     /* HEADINGS */
+     /* PROCEED NEXT */
+     /* STRONG TAGS */
+   }
+
    /* YELLOW UPON HOVER */
- .listItems:hover, a:hover, .proceedNext {
-  color: yellow;
-}
+   .listItems:hover,
+   a:hover,
+   .proceedNext {
+     color: yellow;
+   }
+
    /* All Link Attributes */
    a {
-        background-color: transparent;
-        color: var(--proceedNext);
-        text-decoration: none;
-     }
+     background-color: transparent;
+     color: var(--proceedNext);
+     text-decoration: none;
+   }
+
    /* Main container */
    #container {
-    border: 5px solid #333333;
-    height: 111vh;
-    position: absolute;
-    width: 100%;
-    overflow-y: scroll;
-}
-   strong {
-        background-color: #3330;
-        color: var(--strong);
+     border: 5px solid #333333;
+     height: 111vh;
+     overflow-y: scroll;
+     position: absolute;
+     width: 100%;
+   }
 
-        /* Green*/
-     }
+   strong {
+     background-color: #3330;
+     color: var(--strong);
+
+     /* Green*/
+   }
+
    p strong {
-        color: #EE9322;
-     }
+     color: #EE9322;
+   }
+
    /* Heading Attributes */
    h3 {
-        font-size: 19px;
-        position: relative;
-        text-align: center;
-        width: 100%;
-     }
+     font-size: 19px;
+     position: relative;
+     text-align: center;
+     width: 100%;
+   }
+
    /* HEADINGS  */
    .towingEngRun,
    .aputStartBatPwer,
    .aputStartExtPwer {
-        background-color: var(--headings);
-     }
+     background-color: var(--headings);
+   }
+
    /* CIRCUIT BREAKERS */
    .CB {
-        color: var(--warningsBreakers);
-     }
+     color: var(--warningsBreakers);
+   }
+
    .proceedNext {
-        color: var(--proceedNext);
-        font-size: 13px;
-        padding: 10px;
-        position: relative;
-        text-align: center;
-        top: 7px;
-        width: 100%;
+     color: var(--proceedNext);
+     font-size: 13px;
+     padding: 10px;
+     position: relative;
+     text-align: center;
+     top: 7px;
+     width: 100%;
 
-        /* left: 0px; */
-     }
+     /* left: 0px; */
+   }
+
    .warningNotes {
-        color: var(--warningsBreakers);
-        font-size: 11px;
-        padding: 5px;
-        position: relative;
-        text-align: center;
-        width: 100%;
+     color: var(--warningsBreakers);
+     font-size: 11px;
+     padding: 5px;
+     position: relative;
+     text-align: center;
+     width: 100%;
 
-        /* left: 0px; */
-     }
+     /* left: 0px; */
+   }
+
    /* Main Column Attributes */
    .column {
-        display: flex;
-        flex: 1;
-        flex-basis: 100%;
-        flex-direction: column;
-        margin: 5%;
+     display: flex;
+     flex: 1;
+     flex-basis: 100%;
+     flex-direction: column;
+     margin: 5%;
 
-        /* border: 2px solid red; */
-     }
+     /* border: 2px solid red; */
+   }
+
    /* LIST ITEM HEADINGS */
    h5 {
-        font-family: "Concert One", sans-serif;
-        font-style: normal;
-        margin: 5px;
+     font-family: "Concert One", sans-serif;
+     font-style: normal;
+     margin: 5px;
 
-        /* font-weight: 400; */
-        /* font-size: 15px; */
-     }
+     /* font-weight: 400; */
+     /* font-size: 15px; */
+   }
+
    /* Emergency Checklist */
    .emergencyCheck {
-        background-color: var(--warningsBreakers);
-     }
+     background-color: var(--warningsBreakers);
+   }
+
    /* Supplemental NFO */
    .suppleNfo {
-        background-color: #219C90;
-     }
+     background-color: #219C90;
+   }
+
    /* Page  */
    #page {
-        font-size: 1em;
-        left: 160px;
-        position: absolute;
-        top: 770px;
-     }
+     font-size: 1em;
+     left: 160px;
+     position: absolute;
+     top: 770px;
+   }
+
    /* Footer styles */
    footer p {
-        background-color: #333;
-        bottom: 0px;
-        color: #fff;
-        padding: 20px;
-        position: fixed;
-        text-align: center;
-        width: 100%;
-     }
+     background-color: #333;
+     bottom: 0px;
+     color: #fff;
+     height: 60px;
+     padding: 20px;
+     position: fixed;
+     text-align: center;
+     width: 100%;
+   }

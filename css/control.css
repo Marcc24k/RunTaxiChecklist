@@ -1,138 +1,156 @@
 /*    /* Reset default styles */
 * {
-                background-color: rgb(195, 190, 190);
-                box-sizing: border-box;
-                margin: 0px;
-                padding: 0px;
-  }
-  /* GLOBAL VARIABLES */
-  :root {
-              --black: #000000;
-              --headings: #E9B824;
-              --proceedNext: #00008b;
-              --strong: #0A6847;
-              --warningsBreakers: #D83F31;
-
-        /* WARNING NOTES / CIRCUIT BREAKERS*/
-              /* PROCEED NEXT */
-              /* DEFAULT */
-              /* HEADINGS */
-              /* PROCEED NEXT */
-              /* STRONG TAGS */
+  background-color: rgb(195, 190, 190);
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
+
+/* GLOBAL VARIABLES */
+:root {
+  --black: #000000;
+  --headings: #E9B824;
+  --proceedNext: #00008b;
+  --strong: #0A6847;
+  --warningsBreakers: #D83F31;
+
+  /* WARNING NOTES / CIRCUIT BREAKERS*/
+  /* PROCEED NEXT */
+  /* DEFAULT */
+  /* HEADINGS */
+  /* PROCEED NEXT */
+  /* STRONG TAGS */
+}
+
 /* All Link Attributes */
 a {
-                background-color: transparent;
-                color:var(--proceedNext);
-                text-decoration: none;
-  }
+  background-color: transparent;
+  color: var(--proceedNext);
+  text-decoration: none;
+}
+
 /*  *PARENT* Main container */
 #container {
-    border: 5px solid #333333;
-    border-bottom: rgb(195, 190, 190);
-    height: 91%;
-    overflow-y: scroll;
-    position: absolute;
-    width: 100%;
+  border: 5px solid #333333;
+  border-bottom: rgb(195, 190, 190);
+  height: 94%;
+  overflow-y: scroll;
+  position: absolute;
+  width: 100%;
 }
+
 strong {
-                background-color: #3330;
-                color: #0A6847;
-  }
+  background-color: #3330;
+  color: #0A6847;
+}
+
 p strong {
-                color: #EE9322;
-  }
+  color: #EE9322;
+}
+
 /* Header */
 #controlSafety {
-                background-color: #E9B824;
-                border: 2px solid white;
-                border-bottom-color: black;
-                font-size: 1.5em;
-                position: relative;
-                text-align: center;
-  }
+  background-color: #E9B824;
+  border: 2px solid white;
+  border-bottom-color: black;
+  font-size: 1.5em;
+  position: relative;
+  text-align: center;
+}
+
 /* *CHILD-ONE* List Item Notes */
 .listItemsNotes {
-              color: #D83F31;
-              font-family: "Concert One", sans-serif;
-              font-size: 14px;
-              font-style: normal;
-              font-weight: 400;
-              height: auto;
-              list-style-type: square;
-              padding: 0;
-              position: relative;
-              width: 100%;
+  color: #D83F31;
+  font-family: "Concert One", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  list-style-type: square;
+  padding: 0;
+  position: relative;
+  width: 100%;
 
-              /* border: 2px solid rgb(187, 9, 9); */
+  /* border: 2px solid rgb(187, 9, 9); */
 }
- /* YELLOW UPON HOVER */
+
 /* YELLOW UPON HOVER */
-.listItems:hover, a:hover, .proceedNext {
-              color: yellow;
+/* YELLOW UPON HOVER */
+.listItems:hover,
+a:hover,
+.proceedNext {
+  color: yellow;
 }
-  /* *CHILD-TWO*  */
-#preTaxi {
-                color: black;
-                height: auto;
-                position: relative;
-                top: 8px;
-                width: 100%;
-                z-index: 4;
 
-                /* border: 2px solid green; */
-                /* padding: 20px; */
-  }
+/* *CHILD-TWO*  */
+#preTaxi {
+  color: black;
+  height: auto;
+  position: relative;
+  top: 8px;
+  width: 100%;
+  z-index: 4;
+
+  /* border: 2px solid green; */
+  /* padding: 20px; */
+}
+
 #preTaxi li {
-                font-family: "Concert One", sans-serif;
-                list-style: none;
-  }
+  font-family: "Concert One", sans-serif;
+  list-style: none;
+}
+
 ul {
-                padding-left: 5%;
-                position: relative;
-  }
+  padding-left: 5%;
+  position: relative;
+}
+
 li {
-                left: 9%;
-                padding: 5px;
-                position: relative;
-                width: 90%;
-  }
+  left: 9%;
+  padding: 5px;
+  position: relative;
+  width: 90%;
+}
+
 /* External Power page PG:2 */
 #apuPowerStartPage {
-                color: var(--proceedNext);
-                font-family: "Concert One", sans-serif;
-                font-size: 15px;
-                font-style: normal;
-                font-weight: 400;
-                height: auto;
-                position: relative;
-                text-align: center;
-                top: 15px;
-                width: 100%;
+  color: var(--proceedNext);
+  font-family: "Concert One", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  position: relative;
+  text-align: center;
+  top: 15px;
+  width: 100%;
 
-                /* border: 2px solid red; */
-                /* bottom: 410px; */
-  }
+  /* border: 2px solid red; */
+  /* bottom: 410px; */
+}
+
 /* Page  */
 #page {
-                font-size: 1em;
-                height: auto;
-                position: relative;
-                text-align: center;
-                top: 20px;
-                width: 100%;
-  padding:5px;
-                /* border: 2px solid red; */
-  }
+  font-size: 1em;
+  height: auto;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  top: 20px;
+  width: 100%;
+
+  /* border: 2px solid red; */
+}
+
 /* Footer styles */
 footer p {
-      background-color: #333;
-      bottom: 0px;
-      color: #fff;
-      height: 60px;
-      left: 0px;
-      padding: 15px;
-      position: fixed;
-      text-align: center;
-      width: 100%;
+  background-color: #333;
+  bottom: 0px;
+  color: #fff;
+  height: 60px;
+  left: 0px;
+  padding: 15px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
 }
