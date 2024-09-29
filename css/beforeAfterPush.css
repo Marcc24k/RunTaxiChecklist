@@ -10,21 +10,24 @@ html{
   padding: 0px;
 }
 
-/* GLOBAL VARIABLES */
-:root {
-  --black: #000000;
-  --headings: #E9B824;
-  --proceedNext: #00008b;
-  --strong: #0A6847;
-  --warningsBreakers: #D83F31;
+   /* GLOBAL VARIABLES */
+   :root {
+    --black: #000000;
+    --headings: #E9B824;
+    --pargraphStrong: #EE9322;
+    --proceedNext: #00008b;
+    --strong: #0A6847;
+    --warningsBreakers: #D83F31;
+    --iaEngine:rgb(0 149 226);
+    --pratWhitney:rgb(0, 226, 124);
 
-  /* WARNING NOTES / CIRCUIT BREAKERS*/
-  /* PROCEED NEXT */
-  /* DEFAULT */
-  /* HEADINGS */
-  /* PROCEED NEXT */
-  /* STRONG TAGS */
-}
+    /* WARNING NOTES / CIRCUIT BREAKERS*/
+    /* DEFAULT */
+    /* HEADINGS */
+    /* PROCEED NEXT */
+    /* STRONG TAGS */
+    /* PARAGRAPH STRONG */
+ }
 
 /* YELLOW UPON HOVER */
 .listItems:hover,
@@ -74,9 +77,8 @@ h2 {
 }
 
 /* HEADINGS  */
-.towingEngRun,
-.aputStartBatPwer,
-.aputStartExtPwer {
+.beforePush, 
+.afterPush {
   background-color: var(--headings);
 }
 
@@ -97,6 +99,14 @@ h2 {
   /* left: 0px; */
 }
 
+ /* ENGINE ATTRIBUTES */
+ .iaeEngine{
+    background-color: var(--iaEngine); 
+ }
+ .pratWhitney{
+    background-color: var(--pratWhitney); 
+
+ }
 .warningNotes {
   color: var(--warningsBreakers);
   font-family: "Concert One", sans-serif;
@@ -130,15 +140,7 @@ h2 {
   /* font-size: 15px; */
 }
 
-/* Emergency Checklist */
-.emergencyCheck {
-  background-color: var(--warningsBreakers);
-}
-
-/* Supplemental NFO */
-.suppleNfo {
-  background-color: #219C90;
-}
+ 
 
 /* Page  */
 #page {
@@ -177,6 +179,17 @@ footer p {
 
 /* MEDIA QUERIES BELOW */
 
+@media only screen and (max-width: 420px) {
+#container{
+ height: 90%;
+ 
+} 
+
+#page {
+  bottom: 2%;
+  padding: 10px;
+}
+}
    /* Extra small devices (phones, 320px and down) */
    @media only screen and (max-width: 320px) {
 
@@ -186,21 +199,14 @@ footer p {
     footer p{ padding: 5px;}
     
     #page {
-      bottom: 2%;
+    top:0px;
       padding: 10px;
+    }
+
+    .proceedNext{
+        top:10px;
     }
     
   } 
 
-  @media only screen and (max-width: 420px) {
-  #container{
-   height: 90%;
-   
-  } 
-
-  #page {
-    bottom: 2%;
-    padding: 10px;
-  }
-}
   

@@ -144,35 +144,64 @@ li {
 
 /* Footer styles */
 
-   /* Footer styles */
-   footer {
-    background-color: #333;
-    bottom: 0px;
-    color: #fff;
-    height: 11%;
-    left: 0px;
-    position: fixed;
-    text-align: center;
-    width: 100%;
- }
+/* Footer styles */
+footer {
+  background-color: #333;
+  bottom: 0px;
+  color: #fff;
+  height: 11%;
+  left: 0px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
 
- footer p {
-    background-color: #333;
-    padding: 20px;
- }
-
-
+footer p {
+  background-color: #333;
+  padding: 20px;
+}
 
 
 
- /* MEDIA QUERIES BELOW */
 
-   /* Extra small devices (phones, 320px and down) */
-   @media only screen and (max-width: 320px) {
-    #container{ height: 91%;}
-    footer p{ padding: 5px;}
-   } 
-   
-   #page{
-     top:15px;
-   padding: 10px; }
+
+/* MEDIA QUERIES BELOW */
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 428px) {
+  #container {
+    height: 91%;
+  }
+
+  footer p {
+    padding: 5px;
+  }
+
+  #page {
+    padding: 15px;
+  }
+
+  #apuPowerStartPage {
+    top: 20px;
+
+
+  }
+}
+
+/* Extra small devices (phones, 320px and down) */
+@media only screen and (max-width: 320px) {
+  #container {
+    height: 89%;
+  }
+
+  footer p {
+    padding: 5px;
+  }
+
+  #page {
+
+    padding: 5px;
+    top: 20px;
+
+  }
+}

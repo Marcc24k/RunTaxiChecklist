@@ -45,7 +45,7 @@
    }
 
    /* Heading Attributes */
-   h3 {
+   h2 {
       background-color: #EE9322;
       font-size: 19px;
       position: relative;
@@ -78,6 +78,9 @@
       font-style: normal;
       font-weight: 400;
       margin: 5px;
+   }
+   li{
+      list-style:none;
    }
 
    /* YELLOW UPON HOVER */

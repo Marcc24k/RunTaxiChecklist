@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Run Taxi Checklist</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/beforeAfterPush.css">
+
+
+    <!-- FONTS -->
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+
+
+
+
+<body>
+
+    <!-- PARENT CONTAINER -->
+    <div id="container">
+
+
+
+        <!----APU START PROCEDURES CONTAINTER----->
+        <div class="column">
+
+<!-- WARNING NOTES -->
+            <h2 class="warningNotes">NOTE 1: DISREGARD A/SKID & N/W STRG OFF WARNING</h2>
+            <h2 class="warningNotes">USE SPIRIT MAINTENANCE AND A/C TAIL NUMBER
+                AS CALL SIGN </h2>
+
+<!-- BEFORE PUSHBACK -->
+            <h2 class="beforePush"> BEFORE PUSHBACK</h2>
+
+
+            <ul>
+
+                <li class="listItems" id="externalPower">COCKPIT SEATS.......<strong>ADJUST</strong></li>
+                <li class="listItems" id="batPower">SEAT BELTS WITH HARNESS.......<strong>ON</strong></li>
+                <li class="listItems" id="genButtons">RUDDER PEDALS.......<strong>ADJUST</strong></li>
+                <li class="listItems" id="ventPanel">A/SKID & N/W STEERING SWITCH.......<strong>OFF</strong></li>
+                <li class="listItems" id="ecam">VERIFY WHEEL CHOCKS.......<strong>REMOVED</strong></li>
+                <li class="listItems" id="ecam">EXTERNAL POWER.......<strong>DISCONNECTED</strong></li>
+                <li class="listItems" id="ecam">JETWAY.......<strong>REMOVED</strong></li>
+                <li class="listItems" id="ecam">ATC / GROUND CONTROL CLEARANCE.......<strong>OBTAIN</strong></li>
+                <li class="listItems" id="ecam">GROUND CREW.......<strong>INFORM</strong></li>
+                <li class="listItems" id="ecam">PARKING BRAKE.......<strong>OFF</strong></li>
+            </ul>
+
+<!-- PROCEED NEXT -->
+            <h2 class="proceedNext"> PROCEED TO AFTER PUSHBACK</h2>
+
+        </div>
+
+        <!-- Towing container end -->
+
+        <!----AFTER PUSHBACK----->
+        <div class="column emerg">
+
+            <h2 class="afterPush"> AFTER PUSHBACK</h2>
+
+
+            <ul>
+
+                <li class="listItems" id="apuFire">PARKING BRAKE.......<strong>ON</strong></li>
+                <li class="listItems" id="apuExtig">CLEAR TO DISCONNECTED AND SHOW PIN.......<strong>VERIFY</strong></li>
+                <li class="listItems" id="apuFireTest">APU FIRE TEST.......<strong>ON</strong></li>
+                 
+            </ul>
+        </div>
+
+
+        <h2 class="proceedNext">PROCEED TO BEFORE ENGINE START (<span class="iaeEngine"><a href="index.html" title="Cockpit Prep">PG. 5 - V2500</a></span>)
+            (<span class="pratWhitney"><a href="index.html" title="Cockpit Prep">PG. 14 - PW1100G</a></span>)</a></h2>
+
+
+
+
+
+
+        <!-- PAGE -->
+
+        <h1 id="page">PG. 2 </h1>
+
+        <!-- FOOTER -->
+        <footer>
+            <p><strong>For Reference Only:</strong> Created By Marc Cook (A&P) </p>
+        </footer>
+
+    </div> <!---Main Container CLose-->
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+
+</body>
+
+
+
+</html>
