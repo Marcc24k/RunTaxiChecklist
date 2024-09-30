@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width,height=device-height initial-scale=1">
+        <title>Interactive Run Taxi Checklist</title>
+        <!-- Links -->
+        <link rel="stylesheet" href="css/beforeEngStart.css">
+
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+            rel="stylesheet">
+        <!-- Scripts -->
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+
+    <body>
+        <!-- Main Container -->
+        <div id="container"> <!---PARENT-->
+            <!-- Control Safety Section -->
+            <h1 id="beforeEngStart"> BEFORE ENGINE START (V2500)</h1>
+            <!---CHILD ONE-->
+            <div class="preStart">
+                <column one>
+                    <!-- Lists Items -->
+                    <ul>
+                        <li>ENGINE FIRE PUSHBUTTONRMP 1 & 2.......<strong>IN / GUARDED</strong></li>
+                        <li>ENG 1 & 2 FIRE TEST.......<strong>PERFORM</strong></li>
+                        <li>THRUST REVERSERS.......<strong>IDLE</strong></li>
+                        <li>BEACONS.......<strong>ON</strong></li>
+                        <li>FUEL PUMPS.......<strong>ON</strong></li>
+                        <li>GROUND CLEARANCE ( CALL RAMP IF REQUIRED).......<strong>OBTAIN</strong></li>
+                        
+                      
+                    </ul>
+                </column>
+            </div>
+
+            <!-- STARTER DUTY CYCLE (V2500) -->
+            <!---CHILD TWO-->
+
+            <h1 id="beforeEngStart"> STARTER DUTY-CYCLE LIMITATIONS (V2500)</h1>
+
+
+            <div class="listItems">
+                <column one>
+                    <!-- Lists Items -->
+                    <ul>
+                        <!-- A -->
+                        <h3>A- THREE ENGINE STARTING ATTEMPTS- STARTUP TO
+                            IDLE</h3>
+                        <li>1st START ATTEMPT-IF FAIL, 15 SEC COOL DOWN</li>
+                        <li>2nd START ATTEMPT-IF FAIL, 15 SEC COOL DOWN</li>
+                        <li>3rd START ATTEMPT-IF FAIL, 30 MIN COOL DOWN</li>
+                        <!--  B -->
+                        <h3>B- THREE ENGINE CRANKING SESSIONGS - CRANKING ONLY</h3>
+                        <li>2 MIN CRANK - 15 SEC COOL DOWN AFTER N2 = 0%</li>
+                        <li>2 MIN CRANK - 15 SEC COOL DOWN AFTER N2 = 0%</li>
+                        <li>1 MIN CRANK - 30 MIN COOL DOWN </li>
+                        <!-- C -->
+                        <h3>C- ONE ENGINE CRANKING SESSIONGS - CRANKING ONLY</h3>
+                        <li> 4 MIN CRANK - 30 MIN COOL DOWN</li>
+                       
+                    </ul>
+                </column>
+            </div>
+
+            <!-- Proceed to exteranl power page -->
+            <!---CHILD THREE-->
+
+            <div id="apuPowerStartPage" class="proceedNext"> <a
+                    href="externalPower.html"
+                    title="External Power or APU Start">PROCEED TO EXTERNAL
+                    POWER OR APU START <strong>PG.2</strong></a> </div>
+            <!-- Page -->
+
+            <h1 id="page">PG. 6 </h1>
+            <!-- Footer -->
+            <footer>
+                <p><strong>For Reference Only:</strong> Created By Marc Cook
+                    A&P, Web Devoloper </p>
+            </footer>
+        </div> <!----CONTAINER-->
+
+        <script src="../js/script.js"></script>
+    </body>
+
+</html>

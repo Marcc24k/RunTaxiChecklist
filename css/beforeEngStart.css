@@ -13,6 +13,7 @@
   --proceedNext: #00008b;
   --strong: #0A6847;
   --warningsBreakers: #D83F31;
+  --listFont :  font-family:var( --listFont) ;
 
   /* WARNING NOTES / CIRCUIT BREAKERS*/
   /* PROCEED NEXT */
@@ -41,16 +42,16 @@ a {
 
 strong {
   background-color: #3330;
-  color: var(--strong);
+  color: #0A6847;
 }
 
 p strong {
-  color: var(--headings);
+  color: #EE9322;
 }
 
 /* Header */
-#controlSafety {
-  background-color: var(--headings);
+#beforeEngStart {
+  background-color: #E9B824;
   border: 2px solid white;
   border-bottom-color: black;
   font-size: 1.5em;
@@ -58,10 +59,15 @@ p strong {
   text-align: center;
 }
 
+.preStart{
+  font-family:var( --listFont) ;
+  list-style: none;
+}
+
 /* *CHILD-ONE* List Item Notes */
 .listItemsNotes {
-  color: var(--warningsBreakers);
-  font-family: "Concert One", sans-serif;
+  color: #D83F31;
+  font-family:var( --listFont) ;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -74,7 +80,7 @@ p strong {
   /* border: 2px solid rgb(187, 9, 9); */
 }
 
-/* YELLOW UPON HOVER */
+
 /* YELLOW UPON HOVER */
 .listItems:hover,
 a:hover,
@@ -82,23 +88,15 @@ a:hover,
   color: yellow;
 }
 
-/* *CHILD-TWO*  */
-#preTaxi {
-  color: black;
-  height: auto;
-  position: relative;
-  top: 8px;
-  width: 100%;
-  z-index: 4;
-
-  /* border: 2px solid green; */
-  /* padding: 20px; */
+.listItems li {
+  font-family:var( --listFont) ;
+  font-size: 15px;
+  font-style: normal;
+  margin: 5px;
 }
 
-#preTaxi li {
-  font-family: "Concert One", sans-serif;
-  list-style: none;
-}
+
+
 
 ul {
   padding-left: 5%;
@@ -112,22 +110,7 @@ li {
   width: 90%;
 }
 
-/* External Power page PG:2 */
-#apuPowerStartPage {
-  color: var(--proceedNext);
-  font-family: "Concert One", sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  position: relative;
-  text-align: center;
-  top: 15px;
-  width: 100%;
 
-  /* border: 2px solid red; */
-  /* bottom: 410px; */
-}
 
 /* Page  */
 #page {
@@ -168,7 +151,7 @@ footer p {
 /* MEDIA QUERIES BELOW */
 
 /* Extra small devices (phones, 320px and down) */
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 320px) {
   #container {
     height: 91%;
   }
@@ -176,32 +159,9 @@ footer p {
   footer p {
     padding: 5px;
   }
-
-  #page {
-    padding: 15px;
-  }
-
-  #apuPowerStartPage {
-    top: 20px;
-
-
-  }
 }
 
-/* Extra small devices (phones, 320px and down) */
-@media only screen and (max-width: 320px) {
-  #container {
-    height: 89%;
-  }
-
-  footer p {
-    padding: 5px;
-  }
-
-  #page {
-
-    padding: 5px;
-    top: 20px;
-
-  }
+#page {
+  top: 15px;
+  padding: 10px;
 }
