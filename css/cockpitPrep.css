@@ -27,8 +27,8 @@
 
    /* YELLOW UPON HOVER */
    .listItems:hover,
-   a:hover,
-   .proceedNext:hover {
+   a:hover
+     {
       color: yellow;
    }
 
