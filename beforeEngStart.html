@@ -19,74 +19,85 @@
     </head>
 
     <body>
+
+<!-- ---------------------------------PARENT CONTAINER------------------------------------------------------------- -->
+
         <!-- Main Container -->
         <div id="container"> <!---PARENT-->
             <!-- Control Safety Section -->
-            <h1 id="beforeEngStart"> BEFORE ENGINE START (V2500)</h1>
+            <h1 id="beforeEngStart" title="V2500"> BEFORE ENGINE START (<span class="iaeEngine" >V2500</span>)</h1>
             <!---CHILD ONE-->
-            <div class="preStart">
-                <column one>
+
+<!-- ---------------------------------PRESTART RULES------------------------------------------------------------- -->
+
+<column one>
+            <div class="itemsList">
                     <!-- Lists Items -->
                     <ul>
-                        <li>ENGINE FIRE PUSHBUTTONRMP 1 & 2.......<strong>IN / GUARDED</strong></li>
-                        <li>ENG 1 & 2 FIRE TEST.......<strong>PERFORM</strong></li>
-                        <li>THRUST REVERSERS.......<strong>IDLE</strong></li>
-                        <li>BEACONS.......<strong>ON</strong></li>
-                        <li>FUEL PUMPS.......<strong>ON</strong></li>
-                        <li>GROUND CLEARANCE ( CALL RAMP IF REQUIRED).......<strong>OBTAIN</strong></li>
+                        <li class="listItems" >  ENGINE FIRE PUSHBUTTONRMP 1 & 2.......<strong>IN / GUARDED</strong></li>
+                        <li class="listItems" >  ENG 1 & 2 FIRE TEST.......<strong>PERFORM</strong></li>
+                        <li class="listItems" >  THRUST REVERSERS.......<strong>IDLE</strong></li>
+                        <li class="listItems" >  BEACONS.......<strong>ON</strong></li>
+                        <li class="listItems" >  FUEL PUMPS.......<strong>ON</strong></li>
+                        <li class="listItems" >  GROUND CLEARANCE ( CALL RAMP IF REQUIRED).......<strong>OBTAIN</strong></li>
                         
                       
                     </ul>
-                </column>
-            </div>
+                </div>
+            </column>
 
-            <!-- STARTER DUTY CYCLE (V2500) -->
+
+<!-- ---------------------------------STARTER DUTY CYCLE (V2500)------------------------------------------------------------- -->
+
+ 
             <!---CHILD TWO-->
 
-            <h1 id="beforeEngStart"> STARTER DUTY-CYCLE LIMITATIONS (V2500)</h1>
+            <h1 id="beforeEngStart"> STARTER DUTY-CYCLE LIMITATIONS(<span class="iaeEngine" >V2500</span>)</h1></h1>
+
+            <column one>
 
 
-            <div class="listItems">
-                <column one>
+                 <!-- WARNING NOTES -->
+            <h2 class="warningNotes">DO NOT ENGAGE STARTER AGAIN WITH ENGINE MOTORING ABOVE 10% N2 - DOING SO WILL DAMAGE THE START SHAFT</h2>
+
+            <div class="itemsList">
                     <!-- Lists Items -->
                     <ul>
                         <!-- A -->
-                        <h3>A- THREE ENGINE STARTING ATTEMPTS- STARTUP TO
+                        <h3><span class="crankLetters" >A-</span> THREE ENGINE STARTING ATTEMPTS- STARTUP TO
                             IDLE</h3>
-                        <li>1st START ATTEMPT-IF FAIL, 15 SEC COOL DOWN</li>
-                        <li>2nd START ATTEMPT-IF FAIL, 15 SEC COOL DOWN</li>
-                        <li>3rd START ATTEMPT-IF FAIL, 30 MIN COOL DOWN</li>
+                        <li id="cranks" class="listItems" >  1st START ATTEMPT-IF FAIL, 15 SEC COOL DOWN</li>
+                        <li id="cranks" class="listItems" >  2nd START ATTEMPT-IF FAIL, 15 SEC COOL DOWN</li>
+                        <li id="cranks" class="listItems" >  3rd START ATTEMPT-IF FAIL, 30 MIN COOL DOWN</li>
                         <!--  B -->
-                        <h3>B- THREE ENGINE CRANKING SESSIONGS - CRANKING ONLY</h3>
-                        <li>2 MIN CRANK - 15 SEC COOL DOWN AFTER N2 = 0%</li>
-                        <li>2 MIN CRANK - 15 SEC COOL DOWN AFTER N2 = 0%</li>
-                        <li>1 MIN CRANK - 30 MIN COOL DOWN </li>
+                        <h3><span class="crankLetters" >B-</span> THREE ENGINE CRANKING SESSIONGS - CRANKING ONLY</h3>
+                        <li id="cranks" class="listItems" >  2 MIN CRANK - 15 SEC COOL DOWN AFTER N2 = 0%</li>
+                        <li id="cranks" class="listItems" >  2 MIN CRANK - 15 SEC COOL DOWN AFTER N2 = 0%</li>
+                        <li id="cranks" class="listItems" >  1 MIN CRANK - 30 MIN COOL DOWN </li>
                         <!-- C -->
-                        <h3>C- ONE ENGINE CRANKING SESSIONGS - CRANKING ONLY</h3>
-                        <li> 4 MIN CRANK - 30 MIN COOL DOWN</li>
+                        <h3><span class="crankLetters" >C-</span> ONE ENGINE CRANKING SESSIONGS - CRANKING ONLY</h3>
+                        <li id="cranks" class="listItems" >   4 MIN CRANK - 30 MIN COOL DOWN</li>
                        
-                    </ul>
-                </column>
-            </div>
+                    </ul><span class="crankLetters" >
+ </span>               </div>
+            </column>
+ <!-- ---------------------------------NEXT PAGE------------------------------------------------------------- -->
 
-            <!-- Proceed to exteranl power page -->
             <!---CHILD THREE-->
 
-            <div id="apuPowerStartPage" class="proceedNext"> <a
-                    href="externalPower.html"
-                    title="External Power or APU Start">PROCEED TO EXTERNAL
-                    POWER OR APU START <strong>PG.2</strong></a> </div>
+            <h2 id="next" class="proceedNext">PROCEED TO BEFORE ENGINE START (<span class="iaeEngine"><a href="engStart.html"
+                title="Engine Start">PG. 6 - V2500</a></span>)</h2>
             <!-- Page -->
 
             <h1 id="page">PG. 6 </h1>
             <!-- Footer -->
             <footer>
                 <p><strong>For Reference Only:</strong> Created By Marc Cook
-                    A&P, Web Devoloper </p>
+                    A&P </p>
             </footer>
         </div> <!----CONTAINER-->
 
         <script src="../js/script.js"></script>
     </body>
 
-</html>
+</html
