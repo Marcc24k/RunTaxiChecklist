@@ -73,6 +73,7 @@
       position: relative;
       text-align: center;
       width: 100%;
+      color:black;
 
       /* left: 0px; */
    }
@@ -120,7 +121,7 @@
 
    /* Supplemental NFO */
    .suppleNfo {
-      background-color: var(--strong);
+      background-color: var(--iaEngine);
    }
 
    /* Footer styles */
