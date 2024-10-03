@@ -14,16 +14,17 @@
       --proceedNext: #00008b;
       --strong: #0A6847;
       --warningsBreakers: #D83F31;
-      --iaEngine:rgb(0 149 226);
-      --pratWhitney:rgb(0, 226, 124);
-
+      --iaEngine: #2278ee;
+      --pratWhitney: #ee2222;
+      --listFont:"Concert One", sans-serif;
+    
       /* WARNING NOTES / CIRCUIT BREAKERS*/
       /* DEFAULT */
       /* HEADINGS */
       /* PROCEED NEXT */
       /* STRONG TAGS */
       /* PARAGRAPH STRONG */
-   }
+    }
 
    /* YELLOW UPON HOVER */
    .listItems:hover,

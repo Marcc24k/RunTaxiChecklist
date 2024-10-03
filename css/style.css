@@ -14,6 +14,28 @@
       text-decoration: none;
    }
 
+/* GLOBAL VARIABLES */
+ 
+:root {
+   --black: #000000;
+   --headings: #E9B824;
+   --pargraphStrong: #EE9322;
+   --proceedNext: #00008b;
+   --strong: #0A6847;
+   --warningsBreakers: #D83F31;
+   --iaEngine: #2278ee;
+   --pratWhitney: #ee2222;
+   --listFont:"Concert One", sans-serif;
+ 
+   /* WARNING NOTES / CIRCUIT BREAKERS*/
+   /* DEFAULT */
+   /* HEADINGS */
+   /* PROCEED NEXT */
+   /* STRONG TAGS */
+   /* PARAGRAPH STRONG */
+ }
+
+
    /* Main container */
    #container {
       border: 5px solid #333333;
@@ -25,16 +47,16 @@
 
    strong {
       background-color: #3330;
-      color: #0A6847;
+      color: var(--strong);
    }
 
    p strong {
-      color: #EE9322;
+      color: var(--pargraphStrong);
    }
 
    /* Header Attributes */
    .header {
-      background-color: #E9B824;
+      background-color: var(--headings);
       border: 2px solid white;
       border-bottom-color: black;
       font-size: 1.5em;
@@ -46,7 +68,7 @@
 
    /* Heading Attributes */
    h2 {
-      background-color: #EE9322;
+      background-color: var(--pargraphStrong);
       font-size: 19px;
       position: relative;
       text-align: center;
@@ -68,30 +90,37 @@
 
    /* Emergency Checklist */
    .emergencyCheck {
-      background-color: #D83F31;
+      background-color: var(--warningsBreakers);
    }
 
    /* List Item Attributes  */
    .listItems {
-      font-family: "Concert One", sans-serif;
+      font-family: var(--listFont);
       font-size: 15px;
       font-style: normal;
       font-weight: 400;
       margin: 5px;
+      color: black;
    }
    li{
       list-style:none;
    }
 
    /* YELLOW UPON HOVER */
-   .listItems:hover,
-   a:hover {
+   .listItems:hover, a:hover {
       color: yellow;
+   } 
+  
+   .iaeEngine{
+      color:var(--iaEngine);
+   }
+   .pratWhitney{
+      color:var(--pratWhitney);
    }
 
    /* Supplemental NFO */
    .suppleNfo {
-      background-color: #219C90;
+      background-color: var(--strong);
    }
 
    /* Footer styles */
@@ -112,6 +141,8 @@
    }
 
 
+ 
+ 
 
 /* MEDIA QUERIES BELOW */
 

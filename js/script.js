@@ -1,7 +1,7 @@
 // Go back a page button *ONLY FOR TESTING, REMOVE BEFORE LAUNCH!*
-document.getElementById("backButton").addEventListener("click", () => {
-  history.back();
-});
+// document.getElementById("backButton").addEventListener("click", () => {
+//   history.back();
+// });
 
 // --------------------------------------------------------------
 
@@ -12,7 +12,12 @@ $(document).ready(function () {
   $("a").mouseout(function () {
     $("strong").css("background-color", "transparent");
   });
+
+   
+
+ 
 });
+ 
 
 
  

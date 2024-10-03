@@ -10,18 +10,21 @@
 :root {
   --black: #000000;
   --headings: #E9B824;
+  --pargraphStrong: #EE9322;
   --proceedNext: #00008b;
   --strong: #0A6847;
   --warningsBreakers: #D83F31;
+  --iaEngine: #2278ee;
+  --pratWhitney: #ee2222;
+  --listFont:"Concert One", sans-serif;
 
   /* WARNING NOTES / CIRCUIT BREAKERS*/
-  /* PROCEED NEXT */
   /* DEFAULT */
   /* HEADINGS */
   /* PROCEED NEXT */
   /* STRONG TAGS */
+  /* PARAGRAPH STRONG */
 }
-
 /* All Link Attributes */
 a {
   background-color: transparent;
