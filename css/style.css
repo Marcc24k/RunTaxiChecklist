@@ -147,13 +147,19 @@
  
 
 /* MEDIA QUERIES BELOW */
+ 
+
+
 
    /* Extra small devices (phones, 320px and down) */
    @media only screen and (max-width: 320px) {
       #container{ height: 91%;}
       footer p{ padding: 5px;}
-     } 
+     
      
      #page{
        top:15px;
      padding: 10px; }
+   
+   
+   } 
