@@ -108,7 +108,8 @@
    }
 
    /* YELLOW UPON HOVER */
-   .listItems:hover, a:hover {
+   .listItems:hover, a:hover,
+    strong:hover{
       color: yellow;
    } 
   
