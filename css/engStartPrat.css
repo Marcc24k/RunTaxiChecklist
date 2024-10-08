@@ -65,17 +65,9 @@ h3{
   color: var(--h3);
 }
 
-/* ------------------------------TESTING HOME BUTTON STYLES */
-/* HOME BUTTON */
-#home {
-    position: relative;
-    width: 40px;
-    height: 20px;
-    bottom: 11px;
-}
   /* ENGINE ATTRIBUTES */
-  .iaeEngine{
-    background-color: var(--iaEngine);
+  .pratWhitney{
+    background-color: var(--pratWhitney);
   
  }
 
@@ -84,38 +76,11 @@ h3{
   background-color: var(--headings);
   border: 2px solid white;
   border-bottom-color: black;
-  font-size: 19px;
+  font-size:19px;
   position: relative;
   text-align: center;
 }
  
-/* SECTION NOTES */
-.sectionNotes{
-    color: var(--h3);
-  font-family: var(--listFont);
-  font-size: 15px;
-  padding: 10px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-
-  /* left: 0px; */
-
-}
-
-.sectionNotesVerify{
-    font-style: italic;
-    color: var(--warningsBreakers);
-    font-family: var(--listFont);
-    font-size: 15px;
-    padding: 10px;
-    position: relative;
-    text-align: center;
-    width: 100%;
-}
-
-
-
 /* WARNING NOTES */
 
 .warningNotes {

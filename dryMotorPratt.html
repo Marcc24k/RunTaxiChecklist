@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height initial-scale=1">
+    <title>Interactive Run Taxi Checklist</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="css/dryMotorPrat.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <!-- ---------------------------------PARENT CONTAINER------------------------------------------------------------- -->
+    <!-- Main Container -->
+    <div id="container"> <!---PARENT-->
+        <!-- Control Safety Section -->
+        <h1 id="beforeEngStart" title="V2500"> ENGINE DRY MOTORING <span class="pratWhitney">PW1100</span></h1>
+        <!---CHILD ONE-->
+        <!-- ---------------------------------ENGINE AUTO START------------------------------------------------------------- -->
+        <column one>
+            <!-- WARNING NOTES -->
+            <h2 class="warningNotes">OBSERVE STARTER OPERATION GUIDLINES ON
+                PAGE: 14</h2> <!-- WARNING NOTES -->
+            <h2 class="warningNotes">MONITOR ALL PARAMETERS</h2>
+            <div class="itemsList">
+                <!-- Lists Items -->
+                <ul>
+                    <li class="listItems"> ENGINE HPSOV C/B (ENG #1 A01)
+                        (ENG #2 A02).......<strong>PULL</strong></li>
+                    <li class="listItems"> ECAM CONTROL
+                        PANEL.......<strong>SELECT "FUEL"</strong></li>
+                    <li class="listItems"> FUEL PAGE.......<strong>VERIFY LP
+                            FUEL VALVE 1(2) INLINE OPEN</strong></li>
+                    <li class="listItems"> FUEL
+                        PUMPS.......<strong>ON</strong></li>
+                    <li class="listItems"> PACKS 1 &
+                        2.......<strong>OFF</strong></li>
+                    <li class="listItems"> ECAM CONTROL
+                        PANEL.......<strong>SELECT "ENG"</strong></li>
+                    <li class="listItems"> GROUND
+                        CLEARANCE.......<strong>OBTAIN</strong></li>
+                    <li class="listItems"> ENGINE MODE
+                        SELECTOR.......<strong>CRANK</strong></li>
+                    <li class="listItems"> ENG MANUAL START PUSH BUTTON
+                        1(2).......<strong>ON</strong></li>
+                    <li class="listItems"> CHRONO.......<strong>START WHEN
+                            VALVE OPENS</strong></li>
+                </ul>
+            </div>
+        </column>
+        <!-- ---------------------------------WHEN DRY MOTORING IS COMPLETE ------------------------------------------------------------- -->
+        <h2 class="sectionNotes">WHEN DRY MOTORING IS COMEPLETE:</h2>
+        <div class="itemsList">
+            <!-- Lists Items -->
+            <ul>
+                <li class="listItems"> ENGINE MANUAL START
+                    PUSHBUTTON.......<strong>OFF</strong></li>
+                <li class="listItems"> ENGINE MODE
+                    SELECTOR.......<strong>NORM</strong></li>
+                <li class="listItems"> ENGINE HPSOV C/B (ENG #1 A01) (ENG #2
+                    A02).......<strong>RESET</strong></li>
+                <li class="listItems"> ECAM CONTROL
+                    PANEL.......<strong>SELECT "FUEL"</strong></li>
+                <li class="listItems"> FUEL PAGE.......<strong>VERIFY LP
+                        FUEL VALVE 1(2) CLOSED</strong></li>
+                <li class="listItems"> ECAM CONTROL
+                    PANEL.......<strong>DE-SELECT "FUEL"</strong></li>
+                <li class="listItems"> FUEL
+                    PUMPS.......<strong>OFF</strong></li>
+                <li class="listItems"> PACKS 1 & 2.......<strong>AS
+                        REQUIRED</strong></li>
+            </ul>
+        </div>
+        </column>
+        <h2 class="sectionNotesVerify">Verify LP fuel valve 1(2) OPEN fault is NOT on upper ECAM</h2>
+        <!-- ---------------------------------NEXT PAGE------------------------------------------------------------- -->
+        <!---CHILD THREE-->
+        <h2 id="next" class="proceedNext">ENGINE DRY MOTORING CHECKLIST COMPLETE</h2>
+        <!-- Page -->
+        <h1 id="page">PG. 21 </h1>
+        <!-- HOME BUTTON -->
+        <div id="home"><a href="index.html" title="Home Page">✈️</a> </div>
+        <!-- Footer -->
+        <footer>
+            <p><strong>For Reference Only:</strong> Created By Marc Cook
+                A&P </p>
+        </footer>
+    </div> <!----CONTAINER-->
+    <script src="../js/script.js"></script>
+</body>
+</htmlS

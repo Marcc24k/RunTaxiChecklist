@@ -113,12 +113,33 @@
       color: yellow;
    } 
   
-   .iaeEngine{
+   .iaeEngine, 
+   .iaeEngineHeader{
       color:var(--iaEngine);
    }
-   .pratWhitney{
+   
+   .pratWhitney,
+   .pratWhitneyHeader{
       color:var(--pratWhitney);
    }
+
+
+   span.iaeEngineHeader,
+   span.pratWhitneyHeader  {
+background-color: var(--pargraphStrong);
+   }
+
+
+.engClass{
+   background-color: var(--pargraphStrong);
+   font-size: 19px;
+   position: relative;
+   text-align: center;
+   width: 100%;
+   padding: 5px; 
+}
+
+
 
    /* Supplemental NFO */
    .suppleNfo {
