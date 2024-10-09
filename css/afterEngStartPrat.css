@@ -1,0 +1,373 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*    /* Reset default styles */
+
+
+* {
+    background-color: rgb(195, 190, 190);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* GLOBAL VARIABLES */
+/* GLOBAL VARIABLES */
+:root {
+    --black: #000000;
+    --headings: #E9B824;
+    --pargraphStrong: #EE9322;
+    --proceedNext: #00008b;
+    --strong: #0A6847;
+    --warningsBreakers: #D83F31;
+    --iaEngine: rgb(0 149 226);
+    --pratWhitney: #ee2222;
+    --listFont: "Concert One", sans-serif;
+
+    /* WARNING NOTES / CIRCUIT BREAKERS*/
+    /* DEFAULT */
+    /* HEADINGS */
+    /* PROCEED NEXT */
+    /* STRONG TAGS */
+    /* PARAGRAPH STRONG */
+}
+
+/* All Link Attributes */
+a {
+    background-color: transparent;
+    color: var(--proceedNext);
+    text-decoration: none;
+}
+
+/*  *PARENT* Main container */
+#container {
+    border: 5px solid #333333;
+    border-bottom: rgb(195, 190, 190);
+    height: 90%;
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+}
+
+strong {
+    background-color: #3330;
+    color: #0A6847;
+}
+
+p strong {
+    color: #EE9322;
+}
+
+h3 {
+    font-size: 15px;
+    color: var(--strong);
+}
+
+/* ENGINE ATTRIBUTES */
+.pratWhitney {
+    background-color: var(--pratWhitney);
+
+}
+
+/* Header */
+#beforeEngStart {
+    background-color: #E9B824;
+    border: 2px solid white;
+    border-bottom-color: black;
+    font-size: 19px;
+    position: relative;
+    text-align: center;
+}
+
+/* WARNING NOTES */
+
+.warningNotes {
+    color: var(--warningsBreakers);
+    font-family: var(--listFont);
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    /* left: 0px; */
+}
+
+/* *CHILD-ONE* List Item Notes */
+.listItemsNotes {
+    color: #D83F31;
+    font-family: var(--listFont);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    list-style-type: square;
+
+    position: relative;
+    width: 100%;
+
+    /* border: 2px solid rgb(187, 9, 9); */
+}
+
+
+/* YELLOW UPON HOVER */
+.listItems:hover,
+a:hover,
+.proceedNext {
+    color: yellow;
+}
+
+.listItems {
+    font-family: var(--listFont);
+    font-size: 13px;
+    font-style: normal;
+    list-style: none;
+    line-height: 15px;
+}
+
+
+
+
+/* CHECK IDLE NUMBERS */
+#checkIdle {
+    position: relative;
+    top: 5px;
+    padding: 10px;
+}
+
+/* IDLE NUMBERS */
+#idle {
+    list-style: disc;
+}
+
+
+ul {
+    padding-left: 5%;
+    position: relative;
+}
+
+li {
+    left: 9%;
+    padding: 5px;
+    position: relative;
+    width: 90%;
+}
+
+.proceedNext {
+    color: var(--proceedNext);
+    font-size: 13px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+
+    /* left: 0px; */
+}
+
+/* Page  */
+#page {
+    font-size: 1em;
+    height: auto;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    width: 100%;
+
+    /* border: 2px solid red; */
+}
+
+/* Footer styles */
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    bottom: 0px;
+    color: #fff;
+    height: 11%;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    background-color: #333;
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES BELOW */
+
+/*  max-width: 420px) */
+
+@media only screen and (max-width: 428px) {
+    #container {
+        height: 90%;
+
+    }
+
+    .itemsBox {
+        top: 25px;
+        line-height: 27px;
+    }
+
+    #page {
+        top: 15px;
+
+    }
+
+    .proceedNext {
+        top: 10px;
+    }
+
+    footer {
+        height: 10%;
+        
+    }
+
+
+
+
+
+}
+
+
+/*  max-width: 390x) */
+
+
+@media only screen and (max-width: 393px) {
+    #container {
+        height: 90%;
+
+    }
+
+
+
+
+    /* THIS CONTROLS THE SECOND PRROCEED NEXT CONTAINER FOR BETTER POSITIONING */
+
+
+    .itemsBox {
+
+        top: 0px;
+        line-height: 26px;
+
+    }
+
+    .proceedNext {
+        top: 0px;
+    }
+
+    #page {
+        top: 15px;
+
+    }
+
+    #next {
+        top: 10px;
+    }
+
+    footer {
+        height: 10%;
+    }
+
+
+}
+
+
+
+/*  max-width: 360x) */
+
+
+@media only screen and (max-width: 360px) {
+    #container {
+        height: 90%;
+
+    }
+
+
+
+
+    /* THIS CONTROLS THE SECOND PRROCEED NEXT CONTAINER FOR BETTER POSITIONING */
+
+
+    .itemsBox {
+
+        top: 10px;
+    }
+
+    .proceedNext {
+        top: 10px;
+    }
+
+
+
+    #page {
+        top: 25px;
+
+    }
+}
+
+
+/*  max-width: 320px) */
+
+
+
+@media only screen and (max-width: 320px) {
+    #container {
+        height: 91%;
+    }
+
+    footer p {
+        top: 15px;
+        font-size: 15px;
+    }
+
+
+    #page {
+        top: 15px;
+        padding: 10px;
+    }
+
+
+
+
+
+    /* THIS CONTROLS THE SECOND PRROCEED NEXT CONTAINER FOR BETTER POSITIONING */
+    #next {
+
+        top: 0px;
+    }
+
+
+    .itemsBox {
+
+        top: 5px;
+
+    }
+
+
+    .proceedNext {
+        top: 10px;
+    }
+
+
+}

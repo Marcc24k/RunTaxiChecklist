@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,height=device-height initial-scale=1">
     <title>Interactive Run Taxi Checklist</title>
     <!-- Links -->
-    <link rel="stylesheet" href="css/wetMotoringV.css">
+    <link rel="stylesheet" href="css/wetMotoringPrat.css">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
     <!-- Main Container -->
     <div id="container"> <!---PARENT-->
         <!-- Control Safety Section -->
-        <h1 id="beforeEngStart" title="V2500"> ENGINE WET MOTORING <span class="iaeEngine">V2500</span></h1>
+        <h1 id="beforeEngStart" title="V2500"> ENGINE WET MOTORING <span class="pratWhitney">PW1100</span></h1>
         <!---CHILD ONE-->
 
         <!-- ---------------------------------ENGINE AUTO START------------------------------------------------------------- -->
@@ -37,8 +37,7 @@
             <div class="itemsList">
                 <!-- Lists Items -->
                 <ul>
-                    <li class="listItems"> ENG IGNITION C/B (ENG #1 A03 / P39 / P41) (ENG #2 A03 / P40 /
-                        P42).......<strong>PULL</strong></li>
+                    <li class="listItems"> ENG IGNITION C/B (#1 A03 / P41) (#2 A03 / P42).......<strong>PULL</strong></li>
                     <li class="listItems"> FUEL PUMPS
                         .......<strong>ON</strong></li>
                     <li class="listItems"> PACKS 1 &
@@ -49,8 +48,9 @@
                         CLEARANCE.......<strong>OBTAIN</strong></li>
                     <li class="listItems"> ENG MANUAL START PUSH BUTTON
                         1(2).......<strong>ON</strong></li>
+                    <li class="listItems"> 1st CHRONO.......<strong>START WHEN VAVLE OPENS</strong></li>
 
-                    <h2 class="sectionNotes">WHEN N2 IS GREATER THAN 15%</h2>
+                    <h2 class="sectionNotes">WHEN N2 IS STABILZES</h2>
                     
                     <li class="listItems"> ENGINE MASTER SWITCH 1(2).......<strong>ON</strong></li>
                     <li class="listItems"> 2ND CHRONO.......<strong>START WHEN FUEL FLOW ON</strong></li>
@@ -60,17 +60,18 @@
                     <li class="listItemNotes"> <strong>FUEL FLOW</strong></li>
                     <li class="listItemNotes"> <strong>OIL PRESSURE / QUANTITY</strong></li>
 
-                    <h2 class="sectionNotes">AFTER 20 SECONDS ON SECOND CHRONO</h2>
+                    <h2 class="sectionNotes">AFTER 15 SECONDS ON SECOND CHRONO</h2>
                     
                     <li class="listItems"> ENGINE MASTER SWITCH 1(2).......<strong>OFF</strong></li>
                     <li class="listItems"> FUEL FLOW.......<strong>OBSERVE IMEDIATE DESCREASE</strong></li>
+                    <li class="listItems"> 2ND CHRONO.......<strong>RESTART WHEN FUEL FLOW SHOWS ZERO</strong></li>
 
-            <h2 class="warningNotes">THE EEC RE-ENGAGES STARTER VALVE AUTOMATICALLY
-                WHEN N2 SPEED IS BELOW 10% FOR ENGINE FUEL DRYING</h2> <!-- WARNING NOTES -->
+            <h2 class="warningNotes">CONTINUE TO OPERATE STARTER FOR 30 SECONDS
+                TO REMOVE ALL FUEL VAPORS</h2> <!-- WARNING NOTES -->
 
 
                 <li class="listItems"> 1ST CHRONO.......<strong>MONITOR STARTER DUTY LIMITS</strong></li>
-                <li class="listItems"> 90 SECONDS ON 1ST CHRONO.......<strong>MAN START P/BS 1(2) OFF</strong></li>
+                <li class="listItems"> 30 SECONDS ON 2ND CHRONO.......<strong>MAN START P/BS 1(2) OFF</strong></li>
                 <li class="listItems"> ENGINE MODE SELECTOR.......<strong>NORM</strong></li>
                 <li class="listItems"> ENGINE 1(2) IGNITION C/B'S.......<strong>RESET</strong></li>
                 <li class="listItems"> FUEL PUMPS.......<strong>OFF</strong></li>
@@ -90,7 +91,7 @@
         <h2 id="next" class="proceedNext">ENGINE WET-MOTORING CHECKLIST COMPLETE</h2>
         <!-- Page -->
 
-        <h1 id="page">PG. 13 </h1>
+        <h1 id="page">PG. 22 </h1>
 
         <!-- HOME BUTTON -->
 
@@ -106,4 +107,4 @@
     <script src="../js/script.js"></script>
 </body>
 
-</htmlS
+</html

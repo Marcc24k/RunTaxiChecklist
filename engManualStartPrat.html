@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height initial-scale=1">
+    <title>Interactive Run Taxi Checklist</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="css/engManualStartPrat.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+
+    <!-- ---------------------------------PARENT CONTAINER------------------------------------------------------------- -->
+
+    <!-- Main Container -->
+    <div id="container"> <!---PARENT-->
+        <!-- Control Safety Section -->
+        <h1 id="beforeEngStart" title="V2500"> ENGINE MANUAL START <span class="pratWhitney">PW1100</span></h1>
+        <!---CHILD ONE-->
+
+        <!-- ---------------------------------ENGINE AUTO START------------------------------------------------------------- -->
+
+        <column>
+
+
+            <!-- WARNING NOTES -->
+            <h2 class="warningNotes">OBSERVE STARTER OPERATION AND ENGINE BOWED
+                ROTOR PROTECTION GUIDELINES ON PAGE 14</h2> <!-- WARNING NOTES -->
+            <h2 class="warningNotes">EEC STARTUP PROTECTIONS DISABLED DURING MANUAL
+                STARTING MODE – MONITOR ALL PARAMETERS AND
+                ABORT START IF ANY OF THE FOLLOWING OCCUR: </h2>
+
+            <!-- ---------------------------------ABORT START IS ANY OF THE FOLLOWING OCCUR------------------------------------------------------------- -->
+
+            <div id="abortList" class="itemsList">
+                <!-- Lists Items -->
+                <ul>
+                    <h2 id="abort" class="warningNotes">ABORT START IF ANY OF THE FOLLOWING OCCUR</h2>
+
+                    <li id="idle" class="listItems">The oil pressure does not increase</li>
+                    <li id="idle" class="listItems">No N1 indication when the N1 is greater than 48%</li>
+                    <li id="idle" class="listItems">Ignition System and/or Fuel Flow does not come online</li>
+                    <li id="idle" class="listItems">No increase in EGT 20 seconds after Fuel Flow increase</li>
+                    <li id="idle" class="listItems">More than 90 seconds after fuel flow to achieve Idle N2</li>
+                    <li id="idle" class="listItems">Fuel or Ignition is accidently stopped
+                    <li id="idle" class="listItems">Loss of EGT indication / EGT approaches startup limit</li>
+                    <li id="idle" class="listItems">Sluggish N2 acceleration with a fast increase in EGT</li>
+                    <li id="idle" class="listItems">Abnormal vibrations detected / Engine surge observed</li>
+
+                    <h2 id="abortDryMotor" class="warningNotes">ABORTED START MUST BE FOLLOWED UP BY A DRY-MOTOR
+                        FOR 30 SECONDS OR UNTIL EGT IS LESS THAN 250° C</h2>
+
+
+                </ul>
+            </div>
+
+
+
+            <div class="itemsList">
+                <!-- Lists Items -->
+                <ul>
+                    <li class="listItems"> ENGINE MODE SELECTOR.......<strong>IGN START</strong></li>
+                    <li class="listItems"> AIR PRESSURE AT START VALVE.......<strong>BETWEEN 30 & 40 PSI</strong></li>
+                    <li class="listItems"> ENGINE MANAUAL START BUTTON 1(2).......<strong>ON</strong></li>
+                    <li class="listItems"> CHRONO.......<strong>START WHEN VALVE OPENS</strong></li>
+                    <li class="listItems"> DRY CRANK.......<strong>30 SECONDS</strong></li>
+                    <li class="listItems"> COOLING TIME (IF REQUIRED).......<strong>MONITOR</strong></li>
+                    <li class="listItems"> OIL PRESSURE.......<strong>OBSERVE AN INCREASE</strong></li>
+                    <li class="listItems"> N2 INDICATION.......<strong>MAX MOTORING (<span class="warningNotes">MIN
+                                18%</span>)</strong></li>
+                    <li class="listItems"> ENGINE MASTER SWITCH 1(2).......<strong>ON</strong></li>
+                    <li class="listItems"> FUEL FLOW.......<strong>OBSERVE AN INCREASE</strong></li>
+                    <li class="listItems"> ENGINE 1(2) IGNITER A OR B.......<strong>ON</strong></li>
+                    <li class="listItems"> EGT RISE.......<strong>OBSERVE AN INCREASE (<span class="warningNotes">MAX
+                                1084&#176</span>)</strong></li>
+                    <li class="listItems"> IGNITION / STARTER CUT-OUT.......<strong>OBSERVE AT 55% N2</strong></li>
+                    <li class="listItems"> ENGINE MANAUAL START BUTTON 1(2).......<strong>OFF</strong></li>
+                </ul>
+            </div>
+        </column>
+        <!-- ---------------------------------AT IDLE CHECK FOR------------------------------------------------------------- -->
+        <column>
+
+            <div id="checkIdle" class="itemsList">
+                <!-- Lists Items -->
+                <ul>
+                    <!-- A -->
+                    <h3 id="checkIdle"> AT IDLE CHECK FOR</h3>
+                    <li id="idle" class="listItems"> N1 = 19%</li>
+                    <li id="idle" class="listItems"> EGT = 440&#176C</li>
+                    <li id="idle" class="listItems"> N2 = 59%</li>
+                    <li id="idle" class="listItems"> FF = 600 LBS / HR</li>
+
+
+                </ul>
+            </div>
+
+            <h2 class="warningNotes">NOTE: THESE VALUES ARE APPROXIMATE AND CAN VARY DUE TO AGE OF ENGINE</h2>
+
+        </column>
+        <!-- ---------------------------------NEXT PAGE------------------------------------------------------------- -->
+
+        <!---CHILD THREE-->
+
+        <h2 id="next" class="proceedNext">PROCEED TO AFTER ENGINE START (<span class="iaeEngine"><a
+                    href="afterEngStart.html" title="Engine Start">PG. 19</a></span>)</h2>
+        <!-- Page -->
+
+        <h1 id="page">PG. 16 </h1>
+        <!-- Footer -->
+        <footer>
+            <p><strong>For Reference Only:</strong> Created By Marc Cook
+                A&P </p>
+        </footer>
+    </div> <!----CONTAINER-->
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html
