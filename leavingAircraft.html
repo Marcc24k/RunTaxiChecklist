@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height initial-scale=1">
+    <title>Interactive Run Taxi Checklist</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="css/leavingAircraft.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <!-- ---------------------------------PARENT CONTAINER------------------------------------------------------------- -->
+    <!-- Main Container -->
+    <div id="container"> <!---PARENT-->
+        <!-- Control Safety Section -->
+        <h1 id="towingNoEng" title="Towing No Engine Run"> LEAVING THE AIRCRAFT</h1>
+        <!---CHILD ONE-->
+        <!-- ---------------------------------ENGINE CROSSBLEED START------------------------------------------------------------- -->
+        <column>
+            <div class="itemsList">
+                <!-- Lists Items -->
+                <ul>
+                    <li class="listItems"> WHEELS CHOCKS.......<strong>IN PLACE</strong></li>
+                    <li class="listItems"> YELLOW BRAKE PRESSURE.......<strong>VERIFY 3000 PSI</strong></li>
+                    <li class="listItems"> PARKING BRAKE (IF BRAKE TEMPS BELOW 300&#176C).......<strong>ON</strong></li>
+                    <li class="listItems"> (IF BRAKE TEMPS ABOVE 300&#176C).......<strong>OFF</strong></li>
+                    <li class="listItems"> CREW O2.......<strong>OFF</strong></li>
+                    <li class="listItems"> ADIRS ROTARY SELECTORS.......<strong>OFF</strong></li>
+                    <li class="listItems"> EXTERIOR LIGHTS.......<strong>OFF</strong></li>
+                    <li class="listItems"> EMERGENCY EXIT LIGHTS.......<strong>OFF</strong></li>
+                    <li class="listItems"> CABIN PRESSURE MODE PUSHBUTTON.......<strong>AUTO</strong></li>
+                    <li class="listItems"> EXT POWER.......<strong>AS REQUIRED</strong></li>
+                    <li class="listItems"> FUEL PUMPS.......<strong>OFF</strong></li>
+                    <li class="listItems"> APU BLEED PUSHBUTTON.......<strong>OFF</strong></li>
+                    <li class="listItems"> MCDU.......<strong>FULL DIM</strong></li>
+                    <li class="listItems"> APU MASTER PUSHBUTTON.......<strong>OFF</strong></li>
+                </ul>
+                <!-- TOWING NOTES -->
+                <h2 class="sectionNotes">AFTER APU SHUTDOWN</h2>
+                <ul>
+                    <li class="listItems"> ECAM.......<strong>FULL DIM</strong></li>
+                    <li class="listItems"> RMP 1 & 2.......<strong>OFF</strong></li>
+                    <li class="listItems"> ACP 1 & 2.......<strong>OFF</strong></li>
+                    <li class="listItems"> BAT PUSHBUTTONS.......<strong>OFF WHEN APU FLAP CLOSES</strong></li>
+                    <li class="listItems"> EXT POWER.......<strong>OFF</strong></li>
+                </ul>
+                <!-- ---------------------------------NEXT PAGE------------------------------------------------------------- -->
+                <!-- WARNING NOTES -->
+                <h2 class="warningNotes">YOU MUST WAIT 90 SECONDS BEFORE TURNING OFF
+                    BATTERY PUSHBUTTONS TO ALLOW PROPER TIME
+                    FOR APU INLET TO CLOSE
+                </h2> <!-- WARNING NOTES -->
+                <!-- Page -->
+                <h1 id="page"> PG. 26 </h1>
+                <!-- Footer -->
+                <footer>
+                    <p><strong>For Reference Only:</strong> Created By Marc Cook
+                        A&P </p>
+                </footer>
+            </div> <!----CONTAINER-->
+            <script src="../js/script.js"></script>
+</body>
+
+</html
